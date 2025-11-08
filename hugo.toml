@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+languageCode = 'fr-FR'
+title = 'KUHN book' # KUHN CFDT
+theme = 'hugo-book'
