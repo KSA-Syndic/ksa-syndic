@@ -2,6 +2,7 @@
 date = '2025-11-07T22:23:28+01:00'
 draft = false
 title = 'Grève'
+tags = ['grève', 'congés']
 +++
 
 {{< image src="droit-greve.jpg" alt="Le droit de grève - manifestation de la CFDT Bretagne" title="Le droit de grève - manifestation de la CFDT Bretagne" loading="lazy" >}}

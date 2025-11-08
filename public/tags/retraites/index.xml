@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Actualités on Cfdt KUHN</title>
-    <link>http://localhost:1313/actualites/</link>
-    <description>Recent content in Actualités on Cfdt KUHN</description>
+    <title>Retraites on Cfdt KUHN</title>
+    <link>http://localhost:1313/tags/retraites/</link>
+    <description>Recent content in Retraites on Cfdt KUHN</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
     <lastBuildDate>Thu, 11 Sep 2025 00:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/actualites/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/retraites/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mobilisation du 18 sept</title>
       <link>http://localhost:1313/actualites/2025/mobilisation-18-sept/</link>

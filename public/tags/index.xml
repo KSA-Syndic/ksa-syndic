@@ -6,6 +6,49 @@
     <description>Recent content in Tags on Cfdt KUHN</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
+    <lastBuildDate>Fri, 07 Nov 2025 22:23:28 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Congés</title>
+      <link>http://localhost:1313/tags/cong%C3%A9s/</link>
+      <pubDate>Fri, 07 Nov 2025 22:23:28 +0100</pubDate>
+      <guid>http://localhost:1313/tags/cong%C3%A9s/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Grève</title>
+      <link>http://localhost:1313/tags/gr%C3%A8ve/</link>
+      <pubDate>Fri, 07 Nov 2025 22:23:28 +0100</pubDate>
+      <guid>http://localhost:1313/tags/gr%C3%A8ve/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Austérité</title>
+      <link>http://localhost:1313/tags/aust%C3%A9rit%C3%A9/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/aust%C3%A9rit%C3%A9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Budget</title>
+      <link>http://localhost:1313/tags/budget/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/budget/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Franchises</title>
+      <link>http://localhost:1313/tags/franchises/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/franchises/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Retraites</title>
+      <link>http://localhost:1313/tags/retraites/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/retraites/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
