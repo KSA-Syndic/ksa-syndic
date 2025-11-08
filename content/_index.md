@@ -7,7 +7,7 @@ bookToC = false
 
 <div class="book-hero">
 
-![Logo CFDT KUHN](/cfdt-kuhn.png)
+![Logo CFDT KUHN](cfdt-kuhn.png)
 
 # Bienvenue sur le site du syndicat CFDT KUHN
 
