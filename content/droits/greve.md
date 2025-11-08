@@ -3,6 +3,7 @@ date = '2025-11-07T22:23:28+01:00'
 draft = false
 title = 'Grève'
 tags = ['grève', 'congés']
+categories = ['droits']
 +++
 
 {{< image src="droit-greve.jpg" alt="Le droit de grève - manifestation de la CFDT Bretagne" title="Le droit de grève - manifestation de la CFDT Bretagne" loading="lazy" >}}
@@ -27,6 +28,30 @@ Pour qu'une grève soit valable, il faut :
 
 Le plus souvent, ce sont les syndicats (d’entreprise, de branche ou nationaux) qui appellent à la grève.
 
+{{% details "Voir plus" %}}
+### Que dit la loi ?
+
+Une grève correspond à une "cessation collective et concertée du travail dont l'objectif est d'appuyer des revendications professionnelles". Elle se caractérise par un arrêt total de travail sur une durée variable : d'une heure à plusieurs jours ou semaines.
+
+Le fait d'être syndiqué n'est pas obligatoire pour faire grève. C'est un droit fondamental et constitutionnel depuis 1946.
+
+Ce droit s'applique à tous les salariés, sauf exceptions (militaires, policiers actifs, magistrats judiciaires, administration pénitentiaire, transmissions du ministère de l'Intérieur).
+
+> Aucun salarié ne peut être sanctionné, licencié ou discriminé pour l'exercice normal du droit de grève (article L1132-2 du Code du travail).
+
+### Comment se déclarer en grève dans le privé ?
+
+Dans le privé, un mouvement de grève peut être déclenché à tout moment, sans préavis ni obligation de prévenir l'employeur.
+
+L'employeur doit cependant avoir connaissance des revendications au moment de l'arrêt de travail.
+
+En cas de grève nationale et interprofessionnelle, les revendications collectives de l'appel national suffisent.
+
+Pour la bonne organisation, prévenir sa direction ou son manager (par mail ou oralement) la veille ou le matin de la grève est recommandé, mais non obligatoire.
+
+Une fois déclaré en grève, le salarié du privé choisit la durée, peut manifester, rester chez lui, ou faire grève sur son lieu de travail (sans empêcher les non-grévistes de travailler).
+{{% /details %}}
+
 ## Durée de la grève
 
 La grève peut durer **le temps que vous souhaitez** : une journée, une heure, ou même 23 minutes !
@@ -48,7 +73,8 @@ Fais une demande d’absence sur Kelio en sélectionnant `Grève` et `Date à da
 
 Fais une demande d’absence sur Kelio en sélectionnant `Grève` et `Date à date heure à heure`.
 
-{{% details "Voir le schéma récapitulatif (cliquer pour dérouler)" %}}
+{{% details "Voir schéma récapitulatif" %}}
+## Schéma recapitulatif
 {{< mermaid >}}
 flowchart TD
 %% === Styles ===
@@ -70,10 +96,9 @@ classDef success fill:#E3F2FD,stroke:#1E88E5,stroke-width:2px,color:#000;
 
     Z["
     Grève impossible
-    sans préavis légal
     "]
 
-    F1[Grève licite possible]
+    F1[Grève possible]
 
     G{{"Durée prévue ?"}}
 

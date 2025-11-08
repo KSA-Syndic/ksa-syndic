@@ -37,6 +37,13 @@
       <description></description>
     </item>
     <item>
+      <title>Fériés</title>
+      <link>http://localhost:1313/tags/f%C3%A9ri%C3%A9s/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/f%C3%A9ri%C3%A9s/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Franchises</title>
       <link>http://localhost:1313/tags/franchises/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
@@ -48,6 +55,13 @@
       <link>http://localhost:1313/tags/retraites/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
       <guid>http://localhost:1313/tags/retraites/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Salaires</title>
+      <link>http://localhost:1313/tags/salaires/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/salaires/</guid>
       <description></description>
     </item>
   </channel>
