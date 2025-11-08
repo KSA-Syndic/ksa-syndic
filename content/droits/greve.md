@@ -2,6 +2,7 @@
 date = '2025-11-07T22:23:28+01:00'
 draft = false
 title = 'Grève'
+type = 'docs'
 tags = ['grève', 'congés']
 categories = ['droits']
 +++
