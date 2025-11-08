@@ -15,3 +15,10 @@ theme = 'hugo-book'
   # (Optional, default docs) Specify section of content to render as menu
   # You can also set value to "*" to render all sections to menu
   BookSection = '*'
+  # /!\ This is an experimental feature, might be removed or changed at any time
+  # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
+  # Portable links meant to work with text editors and let you write markdown without {{< relref >}} shortcode
+  # Theme will print warning if page referenced in markdown does not exists.
+  BookPortableLinks = false
+[markup.goldmark.renderer]
+  unsafe = true
