@@ -34,8 +34,8 @@ L’employeur déduit le temps de grève du salaire, même pour les forfaits jou
 
 ## Comment se déclarer en grève à KUHN ?
 
-1. **Préviens le syndicat** : à.completer@gmail.com
-2. **Préviens ton employeur** (manager et/ou RH)
+1. **Préviens le syndicat** ([contact](/contact))
+2. **Préviens ton employeur** (manager)
 
 ### Pour une journée ou demi-journée
 
