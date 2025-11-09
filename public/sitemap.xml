@@ -2,61 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/actualites/</loc>
-    <lastmod>2025-11-08T03:13:57+01:00</lastmod>
+    <loc>/actualites/</loc>
+    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-11-08T14:41:44+01:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cong%C3%A9s/</loc>
-    <lastmod>2025-11-08T14:41:44+01:00</lastmod>
+    <loc>/tags/cong%C3%A9s/</loc>
+    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/droits/</loc>
-    <lastmod>2025-11-08T14:41:44+01:00</lastmod>
+    <loc>/categories/droits/</loc>
+    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/droits/greve/</loc>
-    <lastmod>2025-11-08T14:41:44+01:00</lastmod>
+    <loc>/droits/greve/</loc>
+    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/gr%C3%A8ve/</loc>
-    <lastmod>2025-11-08T14:41:44+01:00</lastmod>
+    <loc>/tags/gr%C3%A8ve/</loc>
+    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-11-08T14:41:44+01:00</lastmod>
+    <loc>/tags/</loc>
+    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-11-08T02:00:02+01:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/droits/</loc>
-    <lastmod>2025-11-08T03:13:57+01:00</lastmod>
+    <loc>/droits/</loc>
+    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/documents/</loc>
-    <lastmod>2025-11-08T01:30:45+01:00</lastmod>
+    <loc>/documents/</loc>
+    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
-    <lastmod>2025-11-08T02:30:41+01:00</lastmod>
+    <loc>/contact/</loc>
+    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/actualit%C3%A9s/</loc>
-    <lastmod>2025-11-08T14:41:44+01:00</lastmod>
+    <loc>/categories/actualit%C3%A9s/</loc>
+    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/aust%C3%A9rit%C3%A9/</loc>
-    <lastmod>2025-11-08T14:41:44+01:00</lastmod>
+    <loc>/tags/aust%C3%A9rit%C3%A9/</loc>
+    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/budget/</loc>
-    <lastmod>2025-11-08T14:41:44+01:00</lastmod>
+    <loc>/tags/budget/</loc>
+    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/f%C3%A9ri%C3%A9s/</loc>
-    <lastmod>2025-11-08T14:41:44+01:00</lastmod>
+    <loc>/tags/f%C3%A9ri%C3%A9s/</loc>
+    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/franchises/</loc>
-    <lastmod>2025-11-08T14:41:44+01:00</lastmod>
+    <loc>/tags/franchises/</loc>
+    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/actualites/2025/mobilisation-18-sept/</loc>
-    <lastmod>2025-11-08T14:41:44+01:00</lastmod>
+    <loc>/actualites/2025/mobilisation-18-sept/</loc>
+    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/retraites/</loc>
-    <lastmod>2025-11-08T14:41:44+01:00</lastmod>
+    <loc>/tags/retraites/</loc>
+    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/salaires/</loc>
-    <lastmod>2025-11-08T14:41:44+01:00</lastmod>
+    <loc>/tags/salaires/</loc>
+    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
   </url>
 </urlset>

@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Cfdt KUHN</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Cfdt KUHN</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Sat, 08 Nov 2025 14:41:44 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Nov 2025 17:56:45 +0100</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Congés</title>
-      <link>http://localhost:1313/tags/cong%C3%A9s/</link>
+      <link>/tags/cong%C3%A9s/</link>
       <pubDate>Fri, 07 Nov 2025 22:23:28 +0100</pubDate>
-      <guid>http://localhost:1313/tags/cong%C3%A9s/</guid>
+      <guid>/tags/cong%C3%A9s/</guid>
       <description></description>
     </item>
     <item>
       <title>Grève</title>
-      <link>http://localhost:1313/tags/gr%C3%A8ve/</link>
+      <link>/tags/gr%C3%A8ve/</link>
       <pubDate>Fri, 07 Nov 2025 22:23:28 +0100</pubDate>
-      <guid>http://localhost:1313/tags/gr%C3%A8ve/</guid>
+      <guid>/tags/gr%C3%A8ve/</guid>
       <description></description>
     </item>
     <item>
       <title>Austérité</title>
-      <link>http://localhost:1313/tags/aust%C3%A9rit%C3%A9/</link>
+      <link>/tags/aust%C3%A9rit%C3%A9/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/aust%C3%A9rit%C3%A9/</guid>
+      <guid>/tags/aust%C3%A9rit%C3%A9/</guid>
       <description></description>
     </item>
     <item>
       <title>Budget</title>
-      <link>http://localhost:1313/tags/budget/</link>
+      <link>/tags/budget/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/budget/</guid>
+      <guid>/tags/budget/</guid>
       <description></description>
     </item>
     <item>
       <title>Fériés</title>
-      <link>http://localhost:1313/tags/f%C3%A9ri%C3%A9s/</link>
+      <link>/tags/f%C3%A9ri%C3%A9s/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/f%C3%A9ri%C3%A9s/</guid>
+      <guid>/tags/f%C3%A9ri%C3%A9s/</guid>
       <description></description>
     </item>
     <item>
       <title>Franchises</title>
-      <link>http://localhost:1313/tags/franchises/</link>
+      <link>/tags/franchises/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/franchises/</guid>
+      <guid>/tags/franchises/</guid>
       <description></description>
     </item>
     <item>
       <title>Retraites</title>
-      <link>http://localhost:1313/tags/retraites/</link>
+      <link>/tags/retraites/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/retraites/</guid>
+      <guid>/tags/retraites/</guid>
       <description></description>
     </item>
     <item>
       <title>Salaires</title>
-      <link>http://localhost:1313/tags/salaires/</link>
+      <link>/tags/salaires/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/salaires/</guid>
+      <guid>/tags/salaires/</guid>
       <description></description>
     </item>
   </channel>

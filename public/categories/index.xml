@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Cfdt KUHN</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Cfdt KUHN</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Sat, 08 Nov 2025 14:41:44 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Nov 2025 17:56:45 +0100</lastBuildDate>
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Droits</title>
-      <link>http://localhost:1313/categories/droits/</link>
+      <link>/categories/droits/</link>
       <pubDate>Fri, 07 Nov 2025 22:23:28 +0100</pubDate>
-      <guid>http://localhost:1313/categories/droits/</guid>
+      <guid>/categories/droits/</guid>
       <description></description>
     </item>
     <item>
       <title>Actualités</title>
-      <link>http://localhost:1313/categories/actualit%C3%A9s/</link>
+      <link>/categories/actualit%C3%A9s/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/categories/actualit%C3%A9s/</guid>
+      <guid>/categories/actualit%C3%A9s/</guid>
       <description></description>
     </item>
   </channel>
