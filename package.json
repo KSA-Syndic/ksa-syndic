@@ -1,0 +1,19 @@
+{
+  "name": "ksa-syndic",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tinacms dev -c \"hugo server -D\"",
+    "build": "tinacms build && hugo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "tinacms": "^2.9.1"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.12.0",
+    "@types/node": "^24.10.0"
+  }
+}
