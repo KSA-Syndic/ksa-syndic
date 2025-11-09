@@ -1,10 +1,10 @@
-+++
-date = '2025-11-07T01:00:00+01:00'
-draft = false
-title = 'Contact'
-type = 'posts'
-bookToC = false
-+++
+---
+date: "2025-11-07T01:00:00+01:00"
+draft: false
+title: "Contact"
+type: "posts"
+bookToC: false
+---
 
 ### Représentation
 La section syndicale CFDT KUHN défend les droits des salarié·e·s du groupe [KUHN](https://www.kuhn.com/fr).

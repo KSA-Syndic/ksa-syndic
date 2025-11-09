@@ -17,7 +17,8 @@ export default defineConfig({
 
   build: {
     outputFolder: "admin",
-    publicFolder: "static",
+    publicFolder: "static/upload/",
+    basePath: "/cfdt-kuhn/",
   },
   media: {
     tina: {

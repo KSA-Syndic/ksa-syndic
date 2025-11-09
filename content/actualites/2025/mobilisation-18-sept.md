@@ -1,13 +1,13 @@
-+++
-date = '2025-09-11T00:00:00+02:00'
-draft = false
-title = 'Mobilisation du 18 sept'
-type = 'posts'
-tags = ['grève', 'budget', 'austérité', 'retraites', 'salaires', 'franchises', 'fériés', 'congés']
-categories = ['actualités']
-+++
+---
+date: "2025-09-11T00:00:00+02:00"
+draft: false
+title: "Mobilisation du 18 sept"
+type: "posts"
+tags: ["grève", "budget", "austérité", "retraites", "salaires", "franchises", "fériés", "congés"]
+categories: ["actualités"]
+---
 
-{{< image src="../../../greve.jpg" alt="Grève !" title="Grève !" loading="lazy" >}}
+{{< image src="/upload/images/actus/greve.jpg" alt="Grève !" title="Grève !" loading="lazy" >}}
 
 {{% hint info %}}
 **Journée nationale de mobilisation intersyndicale**
@@ -32,5 +32,5 @@ L'intersyndicale exige un budget fondé sur la justice sociale et fiscale, la re
 ## Comment exercer son droit de grève ?
 
 {{% hint success %}}
-Pour tout savoir sur le droit de grève, consultez notre page dédiée : [Comment faire grève ?](../../../droits/greve)
+Pour tout savoir sur le droit de grève, consultez notre page dédiée : [Comment faire grève ?](/droits/greve)
 {{% /hint %}}

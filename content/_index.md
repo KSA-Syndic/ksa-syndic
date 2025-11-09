@@ -1,13 +1,13 @@
-+++
-date = '2025-11-07T21:31:42+01:00'
-draft = false
-title = 'Accueil'
-bookToC = false
-+++
+---
+date: "2025-11-07T21:31:42+01:00"
+draft: false
+title: "Accueil"
+bookToC: false
+---
 
 <div class="book-hero">
 
-![Logo CFDT KUHN](cfdt-kuhn.png)
+![Logo CFDT KUHN](/upload/images/logos/cfdt-kuhn.png)
 
 # Bienvenue sur le site du syndicat CFDT KUHN
 
