@@ -27,9 +27,6 @@ jobs:
       HUGO_VERSION: 0.152.2
       NODE_VERSION: 22.20.0
       TZ: Europe/Oslo
-      NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
-      TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-      TINA_BRANCH: ${{ vars.TINA_BRANCH }}
 
     steps:
       - name: Checkout
@@ -89,6 +86,10 @@ jobs:
           fi
 
       - name: Build TinaCMS Admin (static)
+        env:
+          CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
+          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+          TINA_BRANCH: ${{ vars.TINA_BRANCH }}
         run: |
           if command -v npx &> /dev/null && [ -f tina/config.ts ] || [ -f tina/config.js ]; then
             echo "Building TinaCMS admin..."
