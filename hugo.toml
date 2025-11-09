@@ -1,8 +1,9 @@
-# baseURL = 'https://ksa-syndic.github.io/cfdt-kuhn/'
+# baseURL = "https://ksa-syndic.github.io/cfdt-kuhn/"
 languageCode = 'fr-FR'
 title = 'Cfdt KUHN'
 theme = 'hugo-book'
 enableGitInfo = true
+enableEmoji = true
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
@@ -20,7 +21,7 @@ enableGitInfo = true
   # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
   # Portable links meant to work with text editors and let you write markdown without {{< relref >}} shortcode
   # Theme will print warning if page referenced in markdown does not exists.
-  BookPortableLinks = false
+  BookPortableLinks = true
 
 [markup.goldmark.renderer]
   unsafe = true

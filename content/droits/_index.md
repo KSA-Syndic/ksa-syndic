@@ -4,5 +4,5 @@ draft: false
 title: "Droits"
 type: "docs"
 bookCollapseSection: true
+weight: 2
 ---
-
