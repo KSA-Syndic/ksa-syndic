@@ -27,10 +27,9 @@ jobs:
       HUGO_VERSION: 0.152.2
       NODE_VERSION: 22.20.0
       TZ: Europe/Oslo
-      # TinaCMS variables (injected via secrets)
       TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
       TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-      TINA_BRANCH: ${{ variables.TINA_BRANCH }}
+      TINA_BRANCH: ${{ vars.TINA_BRANCH }}
 
     steps:
       - name: Checkout
