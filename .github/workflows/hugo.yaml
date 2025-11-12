@@ -18,16 +18,19 @@ defaults:
   run:
     shell: bash
 
+env:
+  DART_SASS_VERSION: 1.93.2
+  GO_VERSION: 1.25.3
+  HUGO_VERSION: 0.152.2
+  NODE_VERSION: 22.20.0
+  TZ: Europe/Oslo
+  TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
+  TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+  TINA_BRANCH: ${{ vars.TINA_BRANCH }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      DART_SASS_VERSION: 1.93.2
-      GO_VERSION: 1.25.3
-      HUGO_VERSION: 0.152.2
-      NODE_VERSION: 22.20.0
-      TZ: Europe/Oslo
-
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -87,9 +90,9 @@ jobs:
 
       - name: Build TinaCMS Admin (static)
         env:
-          CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
-          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-          TINA_BRANCH: ${{ vars.TINA_BRANCH }}
+          CLIENT_ID: ${{ env.TINA_PUBLIC_CLIENT_ID }}
+          TINA_TOKEN: ${{ env.TINA_TOKEN }}
+          TINA_BRANCH: ${{ env.TINA_BRANCH }}
         run: |
           if command -v npx &> /dev/null && [ -f tina/config.ts ] || [ -f tina/config.js ]; then
             echo "Building TinaCMS admin..."
