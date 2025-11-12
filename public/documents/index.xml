@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Documents on Cfdt KUHN</title>
-    <link>/documents/</link>
+    <link>https://ksa-syndic.github.io/cfdt-kuhn/documents/</link>
     <description>Recent content in Documents on Cfdt KUHN</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="/documents/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ksa-syndic.github.io/cfdt-kuhn/documents/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

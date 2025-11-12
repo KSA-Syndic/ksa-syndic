@@ -2,18 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Actualités on Cfdt KUHN</title>
-    <link>/actualites/</link>
+    <link>https://ksa-syndic.github.io/cfdt-kuhn/actualites/</link>
     <description>Recent content in Actualités on Cfdt KUHN</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Sun, 09 Nov 2025 17:56:45 +0100</lastBuildDate>
-    <atom:link href="/actualites/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Nov 2025 00:26:01 +0100</lastBuildDate>
+    <atom:link href="https://ksa-syndic.github.io/cfdt-kuhn/actualites/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Le site en ligne marche !!</title>
+      <link>https://ksa-syndic.github.io/cfdt-kuhn/actualites/2025/first-admin-page/</link>
+      <pubDate>Wed, 12 Nov 2025 23:10:03 +0000</pubDate>
+      <guid>https://ksa-syndic.github.io/cfdt-kuhn/actualites/2025/first-admin-page/</guid>
+      <description>&lt;p&gt;On peut l&amp;rsquo;edit en ligne et même rajouter des emojis ! 🥳&lt;/p&gt;&#xA;&lt;p&gt;Alors ça dit quoi ??&lt;/p&gt;&#xA;&lt;h1 id=&#34;section-1&#34;&gt;section 1&lt;a class=&#34;anchor&#34; href=&#34;#section-1&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Blabla&lt;/p&gt;&#xA;&lt;h1 id=&#34;section-2&#34;&gt;section 2&lt;a class=&#34;anchor&#34; href=&#34;#section-2&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Blablabla&lt;/p&gt;&#xA;&lt;h2 id=&#34;sous-section-21&#34;&gt;sous section 2.1&lt;a class=&#34;anchor&#34; href=&#34;#sous-section-21&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Mhmh&lt;/p&gt;&#xA;&lt;h2 id=&#34;sous-section-22&#34;&gt;sous section 2.2&lt;a class=&#34;anchor&#34; href=&#34;#sous-section-22&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Mhmhmh&lt;/p&gt;&#xA;&lt;p&gt;Et des images ?&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ksa-syndic.github.io/cfdt-kuhn/upload/images/logos/cfdt-kuhn.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Mobilisation du 18 sept</title>
-      <link>/actualites/2025/mobilisation-18-sept/</link>
+      <link>https://ksa-syndic.github.io/cfdt-kuhn/actualites/2025/mobilisation-18-sept/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
-      <guid>/actualites/2025/mobilisation-18-sept/</guid>
-      <description>&lt;label class=&#34;book-image&#34; for=&#34;book-image-toggle-0&#34;&gt;&#xD;&#xA;  &lt;input class=&#34;hidden toggle&#34; type=&#34;checkbox&#34; id=&#34;book-image-toggle-0&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;/upload/images/actus/greve.jpg&#34; alt=&#34;Grève !&#34;loading=&#34;lazy&#34;title=&#34;Grève !&#34; /&gt;&#xD;&#xA;&lt;/label&gt;&#xA;&lt;blockquote class=&#34;book-hint info&#34;&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;Journée nationale de mobilisation intersyndicale&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Le 18 septembre 2025, l&amp;rsquo;intersyndicale (CFDT, CGT, FO, CFE-CGC, CFTC, UNSA, FSU, Solidaires) appelle à la grève et à manifester &lt;strong&gt;contre un projet de budget jugé brutal et injuste&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xD;&#xA;&lt;h2 id=&#34;les-revendications&#34;&gt;Les revendications&lt;a class=&#34;anchor&#34; href=&#34;#les-revendications&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Cette mobilisation vise à dénoncer :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;La suppression de jours fériés&lt;/li&gt;&#xA;&lt;li&gt;Les coupes dans les services publics&lt;/li&gt;&#xA;&lt;li&gt;Le gel des prestations sociales et des salaires&lt;/li&gt;&#xA;&lt;li&gt;La désindexation des pensions de retraite&lt;/li&gt;&#xA;&lt;li&gt;Le doublement des franchises médicales&lt;/li&gt;&#xA;&lt;li&gt;La remise en cause de la 5e semaine de congés payés&lt;/li&gt;&#xA;&lt;li&gt;Et plus largement, une réforme budgétaire qui pénalise les travailleurs, les précaires, les retraités et les malades&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;L&amp;rsquo;intersyndicale exige un budget fondé sur la justice sociale et fiscale, la revalorisation des salaires, et l&amp;rsquo;abandon de la retraite à 64 ans.&lt;/p&gt;</description>
+      <guid>https://ksa-syndic.github.io/cfdt-kuhn/actualites/2025/mobilisation-18-sept/</guid>
+      <description>&lt;label class=&#34;book-image&#34; for=&#34;book-image-toggle-0&#34;&gt;&#xD;&#xA;  &lt;input class=&#34;hidden toggle&#34; type=&#34;checkbox&#34; id=&#34;book-image-toggle-0&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;https://ksa-syndic.github.io/cfdt-kuhn/upload/images/actus/greve.jpg&#34; alt=&#34;Grève !&#34;loading=&#34;lazy&#34;title=&#34;Grève !&#34; /&gt;&#xD;&#xA;&lt;/label&gt;&#xA;&lt;blockquote class=&#34;book-hint info&#34;&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;Journée nationale de mobilisation intersyndicale&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Le 18 septembre 2025, l&amp;rsquo;intersyndicale (CFDT, CGT, FO, CFE-CGC, CFTC, UNSA, FSU, Solidaires) appelle à la grève et à manifester &lt;strong&gt;contre un projet de budget jugé brutal et injuste&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xD;&#xA;&lt;h2 id=&#34;les-revendications&#34;&gt;Les revendications&lt;a class=&#34;anchor&#34; href=&#34;#les-revendications&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Cette mobilisation vise à dénoncer :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;La suppression de jours fériés&lt;/li&gt;&#xA;&lt;li&gt;Les coupes dans les services publics&lt;/li&gt;&#xA;&lt;li&gt;Le gel des prestations sociales et des salaires&lt;/li&gt;&#xA;&lt;li&gt;La désindexation des pensions de retraite&lt;/li&gt;&#xA;&lt;li&gt;Le doublement des franchises médicales&lt;/li&gt;&#xA;&lt;li&gt;La remise en cause de la 5e semaine de congés payés&lt;/li&gt;&#xA;&lt;li&gt;Et plus largement, une réforme budgétaire qui pénalise les travailleurs, les précaires, les retraités et les malades&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;L&amp;rsquo;intersyndicale exige un budget fondé sur la justice sociale et fiscale, la revalorisation des salaires, et l&amp;rsquo;abandon de la retraite à 64 ans.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
