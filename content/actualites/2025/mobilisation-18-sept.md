@@ -7,7 +7,7 @@ tags: ["grève", "budget", "austérité", "retraites", "salaires", "franchises",
 categories: ["actualités"]
 ---
 
-{{< image src="/upload/images/actus/greve.jpg" alt="Grève !" title="Grève !" loading="lazy" >}}
+{{< image src="/uploads/images/actus/greve.jpg" alt="Grève !" title="Grève !" loading="lazy" >}}
 
 {{% hint info %}}
 **Journée nationale de mobilisation intersyndicale**

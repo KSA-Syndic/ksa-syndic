@@ -2,7 +2,7 @@
   "name": "ksa-syndic",
   "version": "1.0.0",
   "scripts": {
-    "dev": "tinacms dev -c \"hugo server -D\"",
+    "dev": "tinacms dev -c \"hugo server -D \"",
     "build": "tinacms build && hugo"
   },
   "keywords": [],

@@ -7,7 +7,7 @@ tags: ["grève", "congés"]
 categories: ["droits"]
 ---
 
-{{< image src="/upload/images/droits/droit-greve.jpg" alt="Le droit de grève - manifestation de la CFDT Bretagne" title="Le droit de grève - manifestation de la CFDT Bretagne" loading="lazy" >}}
+{{< image src="/uploads/images/droits/droit-greve.jpg" alt="Le droit de grève - manifestation de la CFDT Bretagne" title="Le droit de grève - manifestation de la CFDT Bretagne" loading="lazy" >}}
 
 {{% hint info %}}
 Ce guide explique simplement le droit de grève et comment se déclarer à KUHN.
@@ -68,7 +68,7 @@ L’employeur déduit le temps de grève du salaire, même pour les forfaits jou
 
 Fais une demande d’absence sur Kelio en sélectionnant `Grève` et `Date à date` ou `Date à date avec demi-journée`.
 
-{{<image src="/upload/images/droits/demande-absence-greve.png" alt="Demande absence grève sur Kelio" title="Demande absence grève sur Kelio" loading="lazy" >}}
+{{<image src="/uploads/images/droits/demande-absence-greve.png" alt="Demande absence grève sur Kelio" title="Demande absence grève sur Kelio" loading="lazy" >}}
 
 ### Pour quelques heures
 

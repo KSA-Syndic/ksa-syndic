@@ -30,4 +30,4 @@ Mhmhmh
 
 Et des images ?
 
-![](/upload/images/logos/cfdt-kuhn.png)
+![](/uploads/images/logos/cfdt-kuhn.png)

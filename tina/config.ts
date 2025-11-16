@@ -15,7 +15,7 @@ export default defineConfig({
   media: {
     tina: {
       publicFolder: "static",
-      mediaRoot: "upload",
+      mediaRoot: "uploads",
     },
   },
 
@@ -23,7 +23,7 @@ export default defineConfig({
     collections: [
       // === 1. ACTUALITÉS ===
       {
-        name: "actualite",
+        name: "mon_actualite",
         label: "Actualités",
         path: "content/actualites",
         format: "md",
@@ -60,7 +60,7 @@ export default defineConfig({
 
       // === 2. DROITS ===
       {
-        name: "droit",
+        name: "mes_droits",
         label: "Droits",
         path: "content/droits",
         format: "md",
@@ -88,7 +88,7 @@ export default defineConfig({
 
       // === 3. DOCUMENTS ===
       {
-        name: "my_document",
+        name: "mes_documents",
         label: "Documents",
         path: "content/documents",
         format: "md",
@@ -108,7 +108,7 @@ export default defineConfig({
       // === 4. CONTACT ===
       {
         name: "page_contact",
-        label: "Page Contact",
+        label: "Contact",
         path: "content",
         format: "md",
         match: {
