@@ -10,9 +10,7 @@ tags:
   - 'https://cfdt-fgmm.fr/wp-content/uploads/AFFICHE-ARTCLE-140.pdf'
 ---
 
-On peut l'edit en ligne et même rajouter des emojis ! 🥳
-
-Alors ça dit quoi ??
+# La FGMM-CFDT affirme
 
 # section 1
 
