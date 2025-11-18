@@ -1,5 +1,7 @@
 ---
-title: Le site en ligne marche !!
+title: >-
+  Contestation de l’interprétation de l’article 140 de la CCN Métallurgie au
+  tribunal
 date: 2025-11-12T23:10:03.515Z
 draft: false
 bookToC: true
