@@ -1,7 +1,7 @@
 ---
 title: Contestation de l’interprétation de la CCN Métallurgie au tribunal
 date: 2025-11-12T23:10:03.515Z
-draft: false
+draft: true
 bookToC: true
 type: posts
 ---
