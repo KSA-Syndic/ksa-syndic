@@ -3,11 +3,11 @@ title: >-
   Contestation de l’interprétation de l’article 140 de la CCN Métallurgie au
   tribunal
 date: 2025-11-12T23:10:03.515Z
-draft: false
+draft: true
 bookToC: true
 type: posts
 tags:
-  - test
+  - 'https://cfdt-fgmm.fr/wp-content/uploads/AFFICHE-ARTCLE-140.pdf'
 ---
 
 On peut l'edit en ligne et même rajouter des emojis ! 🥳
