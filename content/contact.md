@@ -3,7 +3,7 @@ draft: false
 weight: 4
 title: Contact
 date: 2025-11-07T00:00:00.000Z
-bookToC: true
+bookToC: false
 type: posts
 ---
 
