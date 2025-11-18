@@ -12,9 +12,17 @@ tags:
 
 # La FGMM-CFDT affirme
 
-# section 1
+La FGMM-CFDT affirme que la prime d’ancienneté, les primes
 
-Blabla
+d'astreintes, les primes de travail en équipe, les primes de nuit,
+
+etc., doivent être exclues de l'appréciation du Salaire minimum, et
+
+sont en supplément.
+
+Sinon, comment compenser ces contraintes, s’il n'y a pas de
+
+différence de salaire entre un salarié de nuit et un salarié de jour ?
 
 # section 2
 
