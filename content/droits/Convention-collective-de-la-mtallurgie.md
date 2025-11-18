@@ -1,7 +1,7 @@
 ---
 title: Convention collective de la métallurgie
 date: 2025-11-18T22:09:21.968Z
-draft: true
+draft: false
 bookToC: true
 type: docs
 ---
