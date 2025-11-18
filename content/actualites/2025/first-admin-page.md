@@ -4,8 +4,6 @@ date: 2025-11-12T23:10:03.515Z
 draft: false
 bookToC: true
 type: posts
-tags:
-  - 'https://cfdt-fgmm.fr/wp-content/uploads/AFFICHE-ARTCLE-140.pdf'
 ---
 
 # La FGMM-CFDT affirme
@@ -22,18 +20,33 @@ Sinon, comment compenser ces contraintes, s’il n'y a pas de
 
 différence de salaire entre un salarié de nuit et un salarié de jour ?
 
-# section 2
+# L’organisation patronale
 
-Blablabla
+L’organisation patronale soutient que les primes d'ancienneté
 
-## sous section 2.1
+prévues par accord d'entreprise et les
 
-Mhmh
+primes liées aux organisations du travail
 
-## sous section 2.2
+doivent être incluses dans le calcul du
 
-Mhmhmh
+salaire minimum conventionnel.
 
-Et des images ?
+
+La FGMM-CFDT dénonce l’absurdité de cette interprétation
+
+
+
+[https://cfdt-fgmm.fr/wp-content/uploads/AFFICHE-ARTCLE-140.pdf](https://cfdt-fgmm.fr/wp-content/uploads/AFFICHE-ARTCLE-140.pdf)
+
+```mermaid
+%% This won't render without implementing a rendering engine (e.g. mermaid on npm)
+flowchart TD
+    id1(this is an example flow diagram)
+    --> id2(modify me to see changes!)
+    id2
+    --> id3(Click the top button to preview the changes)
+    --> id4(Learn about mermaid diagrams - mermaid.js.org)
+```
 
 ![](/uploads/images/logos/cfdt-kuhn.png)
