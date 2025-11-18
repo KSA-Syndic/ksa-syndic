@@ -1,5 +1,5 @@
 ---
-title: Contestation de l’interprétation de la CCN Métallurgie au tribunal
+title: Contestation de l’interprétation de la CCN au tribunal
 date: 2025-11-12T23:10:03.515Z
 draft: true
 bookToC: true
@@ -32,10 +32,7 @@ doivent être incluses dans le calcul du
 
 salaire minimum conventionnel.
 
-
 La FGMM-CFDT dénonce l’absurdité de cette interprétation
-
-
 
 [https://cfdt-fgmm.fr/wp-content/uploads/AFFICHE-ARTCLE-140.pdf](https://cfdt-fgmm.fr/wp-content/uploads/AFFICHE-ARTCLE-140.pdf)
 
