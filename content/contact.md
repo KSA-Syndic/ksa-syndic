@@ -14,7 +14,7 @@ La section syndicale CFDT KUHN défend les droits des salarié·e·s du groupe [
 ### Moyens de contact
 
 * Facebook : [Groupe CFDT KUHN](https://www.facebook.com/groups/322112914069598/)
-* Email : [ksa-syndic@gmail.com](mailto:ksa-syndic@gmail.com)
+* Email : [ksa.syndic@gmail.com](mailto:ksa.syndic@gmail.com)
 
 ### Délégué syndical CFDT KUHN
 
