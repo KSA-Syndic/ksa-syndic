@@ -4,7 +4,6 @@ draft: false
 title: "Grève"
 type: "docs"
 tags: ["grève", "congés"]
-categories: ["droits"]
 ---
 
 {{< image src="/uploads/images/droits/droit-greve.jpg" alt="Le droit de grève - manifestation de la CFDT Bretagne" title="Le droit de grève - manifestation de la CFDT Bretagne" loading="lazy" >}}

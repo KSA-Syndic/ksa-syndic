@@ -4,7 +4,6 @@ draft: false
 title: "Mobilisation du 18 sept"
 type: "posts"
 tags: ["grève", "budget", "austérité", "retraites", "salaires", "franchises", "fériés", "congés"]
-categories: ["actualités"]
 ---
 
 {{< image src="/uploads/images/actus/greve.jpg" alt="Grève !" title="Grève !" loading="lazy" >}}
