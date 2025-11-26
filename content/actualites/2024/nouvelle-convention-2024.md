@@ -1,8 +1,8 @@
 ---
 title: "Les grandes nouveautés de la convention collective métallurgie 2024"
-date: 2024-02-07
+date: "2024-02-07"
 draft: true
-type: posts
+type: "posts"
 tags: ["métallurgie", "convention", "UIMM", "CFDT", "FO"]
 ---
 

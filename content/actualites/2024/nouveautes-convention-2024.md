@@ -1,8 +1,8 @@
 ---
 title: "Convention métallurgie : les 5 ajouts majeurs de l’avenant du 10 juin 2024"
-date: 2024-06-10
+date: "2024-06-10"
 draft: true
-type: posts
+type: "posts"
 tags: ["métallurgie", "avenant", "indemnité", "prime"]
 ---
 
