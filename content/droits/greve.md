@@ -3,7 +3,7 @@ date: "2025-11-07T22:23:28+01:00"
 draft: false
 title: "Grève"
 type: "docs"
-tags: ["grève", "congés"]
+tags: ["droits", "grève", "congés"]
 ---
 
 {{< image src="/uploads/images/droits/droit-greve.jpg" alt="Le droit de grève - manifestation de la CFDT Bretagne" title="Le droit de grève - manifestation de la CFDT Bretagne" loading="lazy" >}}
@@ -143,6 +143,6 @@ classDef success fill:#E3F2FD,stroke:#1E88E5,stroke-width:2px,color:#000;
 {{< /mermaid >}}
 {{% /details %}}
 
-{{% hint warning %}}
-N’hésite pas à contacter le syndicat pour toute question ou accompagnement !
+{{% hint success %}}
+N’hésite pas à contacter ton syndicat pour toute question ou accompagnement !
 {{% /hint %}}
