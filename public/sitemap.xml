@@ -2,67 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/actualites/</loc>
+    <loc>http://localhost:1313/actualites/</loc>
     <lastmod>2025-11-09T22:17:11+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/droits/</loc>
+    <loc>http://localhost:1313/droits/</loc>
     <lastmod>2025-11-09T22:17:11+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/documents/</loc>
-    <lastmod>2025-11-09T22:17:11+01:00</lastmod>
+    <loc>http://localhost:1313/documents/</loc>
+    <lastmod>2025-11-26T12:10:31+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/contact/</loc>
-    <lastmod>2025-11-09T22:17:11+01:00</lastmod>
+    <loc>http://localhost:1313/contact/</loc>
+    <lastmod>2025-11-24T17:18:37+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/actualites/2025/first-admin-page/</loc>
-    <lastmod>2025-11-13T00:26:01+01:00</lastmod>
+    <loc>http://localhost:1313/droits/convention-collective-de-la-mtallurgie/</loc>
+    <lastmod>2025-11-18T23:29:09+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/tags/</loc>
-    <lastmod>2025-11-13T00:26:01+01:00</lastmod>
+    <loc>http://localhost:1313/documents/convention-collective-de-la-mtallurgie/</loc>
+    <lastmod>2025-11-18T23:40:28+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/tags/test/</loc>
-    <lastmod>2025-11-13T00:26:01+01:00</lastmod>
+    <loc>http://localhost:1313/actualites/2025/contestation-ccn/</loc>
+    <lastmod>2025-11-26T12:10:12+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/categories/</loc>
-    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-11-16T14:33:42+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/tags/cong%C3%A9s/</loc>
-    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
+    <loc>http://localhost:1313/tags/cong%C3%A9s/</loc>
+    <lastmod>2025-11-16T14:33:42+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/categories/droits/</loc>
-    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
+    <loc>http://localhost:1313/categories/droits/</loc>
+    <lastmod>2025-11-16T14:33:42+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/droits/greve/</loc>
-    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
+    <loc>http://localhost:1313/droits/greve/</loc>
+    <lastmod>2025-11-16T14:33:42+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/tags/gr%C3%A8ve/</loc>
-    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
+    <loc>http://localhost:1313/tags/gr%C3%A8ve/</loc>
+    <lastmod>2025-11-16T14:33:42+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/</loc>
-    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-11-16T14:33:42+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/categories/actualit%C3%A9s/</loc>
-    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-11-16T14:33:42+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/tags/aust%C3%A9rit%C3%A9/</loc>
-    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
+    <loc>http://localhost:1313/categories/actualit%C3%A9s/</loc>
+    <lastmod>2025-11-16T14:33:42+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/tags/budget/</loc>
-    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
+    <loc>http://localhost:1313/tags/aust%C3%A9rit%C3%A9/</loc>
+    <lastmod>2025-11-16T14:33:42+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/tags/f%C3%A9ri%C3%A9s/</loc>
-    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
+    <loc>http://localhost:1313/tags/budget/</loc>
+    <lastmod>2025-11-16T14:33:42+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/tags/franchises/</loc>
-    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
+    <loc>http://localhost:1313/tags/f%C3%A9ri%C3%A9s/</loc>
+    <lastmod>2025-11-16T14:33:42+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/actualites/2025/mobilisation-18-sept/</loc>
-    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
+    <loc>http://localhost:1313/tags/franchises/</loc>
+    <lastmod>2025-11-16T14:33:42+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/tags/retraites/</loc>
-    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
+    <loc>http://localhost:1313/actualites/2025/mobilisation-18-sept/</loc>
+    <lastmod>2025-11-16T14:33:42+01:00</lastmod>
   </url><url>
-    <loc>https://ksa-syndic.github.io/cfdt-kuhn/tags/salaires/</loc>
-    <lastmod>2025-11-09T17:56:45+01:00</lastmod>
+    <loc>http://localhost:1313/tags/retraites/</loc>
+    <lastmod>2025-11-16T14:33:42+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/salaires/</loc>
+    <lastmod>2025-11-16T14:33:42+01:00</lastmod>
   </url>
 </urlset>

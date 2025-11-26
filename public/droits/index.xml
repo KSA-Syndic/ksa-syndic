@@ -2,18 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Droits on Cfdt KUHN</title>
-    <link>https://ksa-syndic.github.io/cfdt-kuhn/droits/</link>
+    <link>http://localhost:1313/droits/</link>
     <description>Recent content in Droits on Cfdt KUHN</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Sun, 09 Nov 2025 17:56:45 +0100</lastBuildDate>
-    <atom:link href="https://ksa-syndic.github.io/cfdt-kuhn/droits/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Nov 2025 23:29:09 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/droits/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convention collective de la métallurgie</title>
+      <link>http://localhost:1313/droits/convention-collective-de-la-mtallurgie/</link>
+      <pubDate>Tue, 18 Nov 2025 22:09:21 +0000</pubDate>
+      <guid>http://localhost:1313/droits/convention-collective-de-la-mtallurgie/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.cfdt-metauxalsace.com/index.php?option=com_content%5c&amp;amp;view=article%5c&amp;amp;id=1%5c&amp;amp;Itemid=135&#34;&gt;https://www.cfdt-metauxalsace.com/index.php?option=com_content&amp;amp;view=article&amp;amp;id=1&amp;amp;Itemid=135&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Grève</title>
-      <link>https://ksa-syndic.github.io/cfdt-kuhn/droits/greve/</link>
+      <link>http://localhost:1313/droits/greve/</link>
       <pubDate>Fri, 07 Nov 2025 22:23:28 +0100</pubDate>
-      <guid>https://ksa-syndic.github.io/cfdt-kuhn/droits/greve/</guid>
-      <description>&lt;label class=&#34;book-image&#34; for=&#34;book-image-toggle-0&#34;&gt;&#xD;&#xA;  &lt;input class=&#34;hidden toggle&#34; type=&#34;checkbox&#34; id=&#34;book-image-toggle-0&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;https://ksa-syndic.github.io/cfdt-kuhn/upload/images/droits/droit-greve.jpg&#34; alt=&#34;Le droit de grève - manifestation de la CFDT Bretagne&#34;loading=&#34;lazy&#34;title=&#34;Le droit de grève - manifestation de la CFDT Bretagne&#34; /&gt;&#xD;&#xA;&lt;/label&gt;&#xA;&lt;blockquote class=&#34;book-hint info&#34;&gt;&#xD;&#xA;&lt;p&gt;Ce guide explique simplement le droit de grève et comment se déclarer à KUHN.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xD;&#xA;&lt;h2 id=&#34;quand-et-comment-faire-grève-&#34;&gt;Quand et comment faire grève ?&lt;a class=&#34;anchor&#34; href=&#34;#quand-et-comment-faire-gr%c3%a8ve-&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;La grève est un &lt;strong&gt;droit constitutionnel&lt;/strong&gt; : elle suspend simplement le contrat de travail pendant la durée de la grève.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint success&#34;&gt;&#xD;&#xA;&lt;p&gt;Dans le secteur privé, &lt;strong&gt;aucun préavis n&amp;rsquo;est nécessaire&lt;/strong&gt; !&#xA;Vous pouvez vous déclarer en grève à tout moment, même à la dernière minute (mais prévenir à l&amp;rsquo;avance reste préférable).&lt;/p&gt;</description>
+      <guid>http://localhost:1313/droits/greve/</guid>
+      <description>&lt;label class=&#34;book-image&#34; for=&#34;book-image-toggle-0&#34;&gt;&#xD;&#xA;  &lt;input class=&#34;hidden toggle&#34; type=&#34;checkbox&#34; id=&#34;book-image-toggle-0&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/uploads/images/droits/droit-greve.jpg&#34; alt=&#34;Le droit de grève - manifestation de la CFDT Bretagne&#34;loading=&#34;lazy&#34;title=&#34;Le droit de grève - manifestation de la CFDT Bretagne&#34; /&gt;&#xD;&#xA;&lt;/label&gt;&#xA;&lt;blockquote class=&#34;book-hint info&#34;&gt;&#xD;&#xA;&lt;p&gt;Ce guide explique simplement le droit de grève et comment se déclarer à KUHN.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xD;&#xA;&lt;h2 id=&#34;quand-et-comment-faire-grève-&#34;&gt;Quand et comment faire grève ?&lt;a class=&#34;anchor&#34; href=&#34;#quand-et-comment-faire-gr%c3%a8ve-&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;La grève est un &lt;strong&gt;droit constitutionnel&lt;/strong&gt; : elle suspend simplement le contrat de travail pendant la durée de la grève.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint success&#34;&gt;&#xD;&#xA;&lt;p&gt;Dans le secteur privé, &lt;strong&gt;aucun préavis n&amp;rsquo;est nécessaire&lt;/strong&gt; !&#xA;Vous pouvez vous déclarer en grève à tout moment, même à la dernière minute (mais prévenir à l&amp;rsquo;avance reste préférable).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

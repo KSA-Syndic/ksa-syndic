@@ -2,11 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Documents on Cfdt KUHN</title>
-    <link>https://ksa-syndic.github.io/cfdt-kuhn/documents/</link>
+    <link>http://localhost:1313/documents/</link>
     <description>Recent content in Documents on Cfdt KUHN</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://ksa-syndic.github.io/cfdt-kuhn/documents/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Nov 2025 23:40:28 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/documents/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convention collective de la métallurgie</title>
+      <link>http://localhost:1313/documents/convention-collective-de-la-mtallurgie/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/documents/convention-collective-de-la-mtallurgie/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.cfdt-metauxalsace.com/images/documents/CCNationale/CNN_metallurgie_consolidee-au-03-11-2023.pdf&#34;&gt;https://www.cfdt-metauxalsace.com/images/documents/CCNationale/CNN_metallurgie_consolidee-au-03-11-2023.pdf&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
