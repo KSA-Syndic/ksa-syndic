@@ -118,6 +118,13 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
 
+      - name: Debug - list build and static directories
+        run: |
+          echo 'Contenu du répertoire public (site généré) :'
+          ls -lR ./public || true
+          echo 'Contenu du répertoire static (sources statiques) :'
+          ls -lR ./static || true
+
       - name: Cache save
         id: cache-save
         uses: actions/cache/save@v4
