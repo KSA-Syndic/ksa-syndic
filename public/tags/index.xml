@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Cfdt KUHN</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Sun, 16 Nov 2025 14:33:42 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 26 Nov 2025 22:06:57 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Congés</title>
@@ -37,31 +37,38 @@
       <description></description>
     </item>
     <item>
-      <title>Fériés</title>
-      <link>http://localhost:1313/tags/f%C3%A9ri%C3%A9s/</link>
+      <title>Congé</title>
+      <link>http://localhost:1313/tags/cong%C3%A9/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/f%C3%A9ri%C3%A9s/</guid>
+      <guid>http://localhost:1313/tags/cong%C3%A9/</guid>
       <description></description>
     </item>
     <item>
-      <title>Franchises</title>
-      <link>http://localhost:1313/tags/franchises/</link>
+      <title>Férié</title>
+      <link>http://localhost:1313/tags/f%C3%A9ri%C3%A9/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/franchises/</guid>
+      <guid>http://localhost:1313/tags/f%C3%A9ri%C3%A9/</guid>
       <description></description>
     </item>
     <item>
-      <title>Retraites</title>
-      <link>http://localhost:1313/tags/retraites/</link>
+      <title>Franchise</title>
+      <link>http://localhost:1313/tags/franchise/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/retraites/</guid>
+      <guid>http://localhost:1313/tags/franchise/</guid>
       <description></description>
     </item>
     <item>
-      <title>Salaires</title>
-      <link>http://localhost:1313/tags/salaires/</link>
+      <title>Retraite</title>
+      <link>http://localhost:1313/tags/retraite/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/salaires/</guid>
+      <guid>http://localhost:1313/tags/retraite/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Salaire</title>
+      <link>http://localhost:1313/tags/salaire/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/salaire/</guid>
       <description></description>
     </item>
   </channel>
