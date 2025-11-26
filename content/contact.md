@@ -18,7 +18,7 @@ La section syndicale CFDT KUHN défend les droits des salarié·e·s du groupe [
 
 ### Délégué syndical CFDT KUHN
 
-Nom : Franck MUHR  07 63 43 62 49
+Nom : Franck MUHR 07 63 43 62 49
 
 Nom : Xavier FETIQUE 06 87 15 10 46
 Nom : Yavuz BASTURK 06 65 95 96 06
