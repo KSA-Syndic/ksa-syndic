@@ -14,7 +14,7 @@ export default defineConfig({
   media: {
     tina: {
       publicFolder: "static",
-      mediaRoot: "test",
+      mediaRoot: "uploads",
     },
   },
 
@@ -85,19 +85,18 @@ export default defineConfig({
 
       // === 3. DOCUMENTS ===
       {
-        name: "mes_documents",
+        name: "page_documents",
         label: "Documents",
-        path: "content/documents",
+        path: "content",
         format: "md",
         match: {
-          include: "**/*",
-          exclude: "_*",
+          include: "documents",
         },
         fields: [
           { type: "string", name: "title", label: "Titre", isTitle: true, required: true },
-          { type: "datetime", name: "date", label: "Date" },
-          { type: "boolean", name: "draft", label: "Brouillon" },
+          { type: "datetime", name: "date", label: "Date", ui: { dateFormat: "YYYY-MM-DD", timeFormat: "HH:mm" } },
           { type: "boolean", name: "bookToC", label: "Afficher table des matières latérale" },
+          { type: "string", name: "type", label: "Type", options: ["posts"], ui: { component: "hidden" } },
           { type: "rich-text", name: "body", label: "Contenu", isBody: true },
         ],
       },
@@ -112,7 +111,7 @@ export default defineConfig({
           include: "contact",
         },
         fields: [
-          { type: "string", name: "title", label: "Titre", required: true },
+          { type: "string", name: "title", label: "Titre", isTitle: true, required: true },
           { type: "datetime", name: "date", label: "Date", ui: { dateFormat: "YYYY-MM-DD", timeFormat: "HH:mm" } },
           { type: "boolean", name: "bookToC", label: "Afficher table des matières latérale" },
           { type: "string", name: "type", label: "Type", options: ["posts"], ui: { component: "hidden" } },
