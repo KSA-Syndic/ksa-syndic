@@ -1,4 +1,4 @@
-baseURL = "https://ksa-syndic.github.io/cfdt-kuhn/"
+baseURL = "https://cfdt-kuhn.fr/"
 languageCode = 'fr-FR'
 title = 'Cfdt KUHN'
 theme = 'hugo-book'
