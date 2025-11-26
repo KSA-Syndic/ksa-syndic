@@ -43,4 +43,4 @@ Un régime frais de santé + prévoyance doit obligatoirement exister dans votre
 Texte consolidé officiel (10/06/2024)
 {{< /button >}}
 
-> Pour tout savoir sur tes droits dans la métallurgie, consulte notre page dédiée : [Convention collective métallurgique](/droits/convention-collective-metallurgique)
+> Pour tout savoir sur tes droits dans la métallurgie, consulte notre page dédiée : [Convention collective métallurgique](/droits/convention)

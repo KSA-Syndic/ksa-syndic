@@ -43,4 +43,4 @@ Dossier CFDT FGMM
 Demandez dès maintenant à votre employeur votre nouvelle fiche de classification et votre garantie transitoire !
 {{% /hint %}}
 
-> Pour tout savoir sur tes droits dans la métallurgie, consulte notre page dédiée : [Convention collective métallurgique](/droits/convention-collective-metallurgique)
+> Pour tout savoir sur tes droits dans la métallurgie, consulte notre page dédiée : [Convention collective métallurgique](/droits/convention)
