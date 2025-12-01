@@ -47,7 +47,7 @@ export default defineConfig({
         },
         fields: [
           { type: "string", name: "title", label: "Titre", isTitle: true, required: true },
-          { type: "datetime", name: "date", label: "Date", ui: { dateFormat: "YYYY-MM-DD" } },
+          { type: "datetime", name: "date", label: "Date" },
           { type: "boolean", name: "draft", label: "Brouillon" },
           { type: "boolean", name: "bookToC", label: "Afficher table des matières latérale" },
           { type: "string", name: "type", label: "Type", options: ["posts"], ui: { component: "hidden" } },
@@ -92,9 +92,15 @@ export default defineConfig({
         match: {
           include: "documents",
         },
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
         fields: [
           { type: "string", name: "title", label: "Titre", isTitle: true, required: true },
-          { type: "datetime", name: "date", label: "Date", ui: { dateFormat: "YYYY-MM-DD", timeFormat: "HH:mm" } },
+          { type: "datetime", name: "date", label: "Date" },
           { type: "boolean", name: "bookToC", label: "Afficher table des matières latérale" },
           { type: "string", name: "type", label: "Type", options: ["posts"], ui: { component: "hidden" } },
           { type: "rich-text", name: "body", label: "Contenu", isBody: true },
@@ -110,9 +116,15 @@ export default defineConfig({
         match: {
           include: "contact",
         },
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
         fields: [
           { type: "string", name: "title", label: "Titre", isTitle: true, required: true },
-          { type: "datetime", name: "date", label: "Date", ui: { dateFormat: "YYYY-MM-DD", timeFormat: "HH:mm" } },
+          { type: "datetime", name: "date", label: "Date" },
           { type: "boolean", name: "bookToC", label: "Afficher table des matières latérale" },
           { type: "string", name: "type", label: "Type", options: ["posts"], ui: { component: "hidden" } },
           { type: "rich-text", name: "body", label: "Contenu", isBody: true },

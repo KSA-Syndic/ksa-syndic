@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Cfdt KUHN</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Thu, 27 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Dec 2025 15:14:13 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Classification</title>
@@ -90,6 +90,55 @@
       <link>http://localhost:1313/tags/retraite/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0200</pubDate>
       <guid>http://localhost:1313/tags/retraite/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Avenant</title>
+      <link>http://localhost:1313/tags/avenant/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/avenant/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Indemnité</title>
+      <link>http://localhost:1313/tags/indemnit%C3%A9/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/indemnit%C3%A9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prime</title>
+      <link>http://localhost:1313/tags/prime/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/prime/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CFDT</title>
+      <link>http://localhost:1313/tags/cfdt/</link>
+      <pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cfdt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Convention</title>
+      <link>http://localhost:1313/tags/convention/</link>
+      <pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/convention/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FO</title>
+      <link>http://localhost:1313/tags/fo/</link>
+      <pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/fo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UIMM</title>
+      <link>http://localhost:1313/tags/uimm/</link>
+      <pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/uimm/</guid>
       <description></description>
     </item>
   </channel>
