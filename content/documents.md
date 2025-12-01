@@ -26,6 +26,8 @@ type: posts
 - [Guide classification](/uploads/documents/convention/Classification-Guide.pdf)
 - [Flyer classification](/uploads/documents/convention/Classification-Flyer.pdf)
 
+### Liens utiles
+
 {{< button href="https://www.convention-collective-branche-metallurgie.fr/" >}}
 Site officiel convention métallurgique
 {{< /button >}}
