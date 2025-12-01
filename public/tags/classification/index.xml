@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Droits on Cfdt KUHN</title>
-    <link>http://localhost:1313/tags/droits/</link>
-    <description>Recent content in Droits on Cfdt KUHN</description>
+    <title>Classification on Cfdt KUHN</title>
+    <link>http://localhost:1313/tags/classification/</link>
+    <description>Recent content in Classification on Cfdt KUHN</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
     <lastBuildDate>Thu, 27 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/droits/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/classification/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Convention collective métallurgique</title>
       <link>http://localhost:1313/droits/convention-collective-metallurgie/</link>
       <pubDate>Thu, 27 Nov 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/droits/convention-collective-metallurgie/</guid>
       <description>&lt;blockquote class=&#34;book-hint info&#34;&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;IDCC 3248&lt;/strong&gt; – Convention collective nationale de la métallurgie&lt;br&gt;&#xA;Applicable à tous depuis le 1ᵉʳ janvier 2024.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xD;&#xA;&lt;a class=&#34;book-btn&#34;href=&#34;https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf&#34;rel=&#34;noopener&#34;target=&#34;_blank&#34;&gt;&#xD;&#xA;Convention collective métallurgique (version du 10/06/2024)&#xD;&#xA;&lt;/a&gt;&#xA;&lt;h3 id=&#34;vos-droits-en-détail&#34;&gt;Vos droits en détail&lt;a class=&#34;anchor&#34; href=&#34;#vos-droits-en-d%c3%a9tail&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xD;&#xA;&lt;blockquote class=&#34;book-hint warning&#34;&gt;&#xD;&#xA;&lt;p&gt;Voici tes droits nationaux. Des infos locales seront ajoutées plus tard. Pour l’instant, ce sont les minimas garantis.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xD;&#xA;&lt;details &gt;&lt;summary&gt;Classification : comment ça marche vraiment&lt;/summary&gt;&lt;div class=&#34;markdown-inner&#34;&gt;&#xD;&#xA;&lt;p&gt;Tu &lt;strong&gt;cotes&lt;/strong&gt; ton poste sur &lt;strong&gt;6 critères&lt;/strong&gt; (connaissances, complexité du travail, autonomie…).&lt;br&gt;&#xA;Pour chaque critère tu choisis un &lt;strong&gt;degré&lt;/strong&gt; de 1 à 10 → cela te donne autant de points (degré 7 = 7 points).&lt;br&gt;&#xA;Tu additionnes les 6 degrés → &lt;strong&gt;total des degrés&lt;/strong&gt; (de 6 à 60 maximum).&lt;br&gt;&#xA;Ce total te donne directement ta &lt;strong&gt;classe&lt;/strong&gt; (1 à 18) et ton &lt;strong&gt;groupe&lt;/strong&gt; (A à I).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Grève</title>
-      <link>http://localhost:1313/droits/greve/</link>
-      <pubDate>Fri, 07 Nov 2025 22:23:28 +0100</pubDate>
-      <guid>http://localhost:1313/droits/greve/</guid>
-      <description>&lt;label class=&#34;book-image&#34; for=&#34;book-image-toggle-0&#34;&gt;&#xD;&#xA;  &lt;input class=&#34;hidden toggle&#34; type=&#34;checkbox&#34; id=&#34;book-image-toggle-0&#34; /&gt;&#xD;&#xA;  &lt;img src=&#34;http://localhost:1313/uploads/images/droits/droit-greve.jpg&#34; alt=&#34;Le droit de grève - manifestation de la CFDT Bretagne&#34;loading=&#34;lazy&#34;title=&#34;Le droit de grève - manifestation de la CFDT Bretagne&#34; /&gt;&#xD;&#xA;&lt;/label&gt;&#xA;&lt;blockquote class=&#34;book-hint info&#34;&gt;&#xD;&#xA;&lt;p&gt;Ce guide explique simplement le droit de grève et comment se déclarer à KUHN.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xD;&#xA;&lt;h2 id=&#34;quand-et-comment-faire-grève-&#34;&gt;Quand et comment faire grève ?&lt;a class=&#34;anchor&#34; href=&#34;#quand-et-comment-faire-gr%c3%a8ve-&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;La grève est un &lt;strong&gt;droit constitutionnel&lt;/strong&gt; : elle suspend simplement le contrat de travail pendant la durée de la grève.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint success&#34;&gt;&#xD;&#xA;&lt;p&gt;Dans le secteur privé, &lt;strong&gt;aucun préavis n&amp;rsquo;est nécessaire&lt;/strong&gt; !&#xA;Vous pouvez vous déclarer en grève à tout moment, même à la dernière minute (mais prévenir à l&amp;rsquo;avance reste préférable).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

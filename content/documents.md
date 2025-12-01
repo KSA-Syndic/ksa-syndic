@@ -7,18 +7,24 @@ bookToC: true
 type: posts
 ---
 
-### Tous les documents utiles
+### Convention
 
-- [Convention collective nationale de la métallurgie (consolidée au 10/06/2024)](/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf)
-- [Rémunérations minimales 2024](https://www.cfdt-metauxalsace.com/images/documents/CCNationale/Avenant%20%20la%20CCN%20du%207%20fvrier%202022%20-%20Grille%20de%20salaire.pdf)
-- [Protection sociale complémentaire](https://www.cfdt-metauxalsace.com/images/documents/CCNationale/La%20protection%20sociale%20complmentaire.pdf)
+- [Convention Collective Nationale de la Métallurgie (consolidée au 10/06/2024)](https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf)
+  - [Article: Référentiel de cotations des emplois](https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf#page=58)
+  - [Article: Grille de classement des emplois](https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf#page=60)
+  - [Article: Barème des salaires minimaux](https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf#page=161)
+  - [Article: Grille de remboursements et cotisations](https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf#page=189)
 
-#### Classification – tous les outils
+<a href="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" 
+   download="Convention-collective-metallurgie-2024-complete.pdf" 
+   class="book-btn">
+  Télécharger la convention complète
+</a>
 
-- [Référentiel cotations](/uploads/documents/convention/Classification-Referentiel-Cotations.pdf)
-- [Grille cotations → classes](/uploads/documents/convention/Classification-Grille-Cotations-Classes.pdf)
-- [Guide complet](/uploads/documents/convention/Classification-Guide.pdf)
-- [Flyer salariés](/uploads/documents/convention/Classification-Flyer.pdf)
+### Outils
+
+- [Guide classification](/uploads/documents/convention/Classification-Guide.pdf)
+- [Flyer classification](/uploads/documents/convention/Classification-Flyer.pdf)
 
 {{< button href="https://www.convention-collective-branche-metallurgie.fr/" >}}
 Site officiel convention métallurgique

@@ -2,7 +2,6 @@
 date: "2025-11-27T00:00:00.000Z"
 draft: false
 title: "Convention collective métallurgique"
-bookToC: true
 type: "docs"
 tags: ["droits", "métallurgie", "classification", "salaire"]
 ---
@@ -12,7 +11,15 @@ tags: ["droits", "métallurgie", "classification", "salaire"]
 Applicable à tous depuis le 1ᵉʳ janvier 2024.
 {{% /hint %}}
 
+{{< button href="https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf" >}}
+Convention collective métallurgique (version du 10/06/2024)
+{{< /button >}}
+
 ### Vos droits en détail
+
+{{% hint warning %}}
+Voici tes droits nationaux. Des infos locales seront ajoutées plus tard. Pour l’instant, ce sont les minimas garantis.
+{{% /hint %}}
 
 {{% details "Classification : comment ça marche vraiment" %}}
 Tu **cotes** ton poste sur **6 critères** (connaissances, complexité du travail, autonomie…).\
@@ -34,10 +41,10 @@ Ce total te donne directement ta **classe** (1 à 18) et ton **groupe** (A à I)
 
 Ton salaire actuel est garanti s’il est plus élevé (jusqu’en 2030 au minimum).
 
-→ [Référentiel officiel de cotation (les 6 critères)](/uploads/documents/convention/Classification-Referentiel-Cotations.pdf)\
+→ <a href="https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf#page=58" target="_blank" rel="noopener">Référentiel officiel de cotation (les 6 critères)</a>
 {{% /details %}}
 
-{{% details "Salaires minima 2024 (base 35 h)" %}}
+{{% details "Salaires minima (base 35 h)" %}}
 
 | Groupe | Classe | Minimum annuel brut |
 | ------ | ------ | ------------------- |
@@ -51,22 +58,32 @@ Ton salaire actuel est garanti s’il est plus élevé (jusqu’en 2030 au minim
 | H      | 15     | 47 000 €            |
 | I      | 17     | 59 300 €            |
 
-→ [Grille officielle 2024](https://www.cfdt-metauxalsace.com/images/documents/CCNationale/Avenant%20%20la%20CCN%20du%207%20fvrier%202022%20-%20Grille%20de%20salaire.pdf)
+→ <a href="https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf#page=161" target="_blank" rel="noopener">Barème officiel</a>
 {{% /details %}}
 
-{{% details "Prime d’ancienneté (classes 1 à 10 uniquement)" %}}
-Dès 3 ans dans la même entreprise (dans la limite de 15 ans d’ancienneté).
+{{% details "Prime d’ancienneté" %}}
+On l'obtient dès 3 ans (2 ans chez Kuhn) dans la même entreprise et dans la limite de 15 ans d’ancienneté.
 
 | Classe d’emplois | 1     | 2    | 3     | 4     | 5    | 6     | 7    | 8    | 9    | 10   |
 | ---------------- | ----- | ---- | ----- | ----- | ---- | ----- | ---- | ---- | ---- | ---- |
 | Taux             | 1,45% | 1,6% | 1,75% | 1,95% | 2,2% | 2,45% | 2,6% | 2,9% | 3,3% | 3,8% |
 
-**Formule exacte** (article 142) :\
+**Formule exacte** (article 142) :  
 Prime mensuelle = \[\[valeur du point × taux] × 100] × nombre d’années d’ancienneté
 
-**Exemple officiel** :\
-Salarié en classe 1 (A1), valeur du point = 5 €, 8 ans d’ancienneté →\
+**Exemple** :  
+Salarié en classe 1 (A1), valeur du point = 5 €, 8 ans d’ancienneté →  
 \[\[5 × 1,45 %] × 100] × 8 = **58 € bruts par mois** (base 35 h).
+
+**Pour les classes 11 à 18 (groupes F à I)** :  
+Pas de prime d’ancienneté automatique comme pour les classes 1-10. 
+À la place :
+- **Majorations pour expérience** intégrées au salaire minimum : +5 % après 2 ans ; +8 % après 4 ans (article 139, Annexe 6).
+- **Indemnité de licenciement majorée** : +20 % si ≥50 ans et ≥5 ans d’ancienneté ; +30 % si ≥55 ans (article 75.3.3).
+- **Autres avantages** : Possibilité de prime via accord d’entreprise, mais pas de socle national. Vérifiez votre contrat ou contactez votre syndicat pour une simulation personnalisée.
+
+→ <a href="https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf#page=124" target="_blank" rel="noopener">Majorations (article 139 et Annexe 6)</a>  
+→ <a href="https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf#page=75" target="_blank" rel="noopener">Indemnités licenciement (article 75.3.3)</a>
 {{% /details %}}
 
 {{% details "Temps de travail & congés" %}}
@@ -75,7 +92,7 @@ Salarié en classe 1 (A1), valeur du point = 5 €, 8 ans d’ancienneté →\
 * Maximum 220 heures sup par an sans accord spécial
 * Repos quotidien de 11 h consécutives
 * 5 semaines de congés + **1 jour supplémentaire dès que tu as 45 ans**
-* Travail de nuit → soit −20 min par jour, soit +15 % minimum du salaire horaire
+* Travail de nuit = −20 min par jour, soit +15 % minimum du salaire horaire
   {{% /details %}}
 
 ### Comment connaître ta classe et ton salaire minimum en 4 étapes
@@ -84,17 +101,17 @@ Salarié en classe 1 (A1), valeur du point = 5 €, 8 ans d’ancienneté →\
 
 1. **Fais la cotation de ton poste**\
    → Tu remplis les 6 critères → tu obtiens un **total des degrés** (6 à 60)\
-   → [Référentiel de cotation](/uploads/documents/convention/Classification-Referentiel-Cotations.pdf)
+   → <a href="https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf#page=58" target="_blank" rel="noopener">Référentiel de cotation</a>
 2. **Reporte ton total des degrés**\
    → Tu trouves immédiatement ta **classe** (1 à 18)\
-   → [Grille degrés → classe](/uploads/documents/convention/Classification-Grille-Cotations-Classes.pdf)
+   → <a href="https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf#page=60" target="_blank" rel="noopener">Grille degrés → classe</a>
 3. **Avec ta classe → tu connais ton salaire minimum garanti**\
-   → [Grille des salaires 2024](https://www.cfdt-metauxalsace.com/images/documents/CCNationale/Avenant%20%20la%20CCN%20du%207%20fvrier%202022%20-%20Grille%20de%20salaire.pdf)\
+   → <a href="https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf#page=161" target="_blank" rel="noopener">Barème des salaires</a>\
    → Si classe 1 à 10 → ajoute la prime d’ancienneté (voir tableau ci-dessus)
 4. **Compare avec ton bulletin de paie**\
    Si ton salaire réel est inférieur → tu as droit à rattrapage + arriérés depuis janvier 2024
 
-> Besoin d’aide ? Le [guide complet avec exemples réels](/uploads/documents/convention/Classification-Guide.pdf) est là pour toi
+> Besoin d’aide ? Le <a href="/uploads/documents/convention/Classification-Guide.pdf" target="_blank" rel="noopener">guide complet avec exemples réels</a> est là pour toi
 
 {{% /details %}}
 

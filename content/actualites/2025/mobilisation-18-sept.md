@@ -1,7 +1,7 @@
 ---
 date: "2025-09-11T00:00:00+02:00"
 draft: false
-title: "Mobilisation du 18 sept"
+title: "Mobilisation 18 sept"
 type: "posts"
 tags: ["grève", "budget", "austérité", "retraite", "salaire", "franchise", "férié", "congé"]
 ---

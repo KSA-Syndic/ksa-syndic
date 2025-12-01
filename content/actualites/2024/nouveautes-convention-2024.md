@@ -1,5 +1,5 @@
 ---
-title: "Convention métallurgie : les 5 ajouts majeurs de l’avenant du 10 juin 2024"
+title: "Avenants CNN 2024"
 date: "2024-06-10"
 draft: true
 type: "posts"
@@ -7,7 +7,7 @@ tags: ["métallurgie", "avenant", "indemnité", "prime"]
 ---
 
 {{% hint info %}}
-**Avenant du 10 juin 2024** – Les dernières précisions qui améliorent concrètement vos droits au quotidien.
+**Avenant du 10 juin 2024** – Les dernières améliorations concrètes de tes droits au quotidien.
 {{% /hint %}}
 
 ### 1. Indemnisation maladie à 100 % plus longtemps
@@ -36,11 +36,11 @@ Exemple : technicien groupe E, 10 ans → +15 à 20 % sur son minima.
 Priorité aux alternants, femmes et aidants.
 
 {{% hint warning %}}
-Un régime frais de santé + prévoyance doit obligatoirement exister dans votre entreprise depuis le 1ᵉʳ janvier 2024. Sinon, alertez votre délégué syndical !
+Un régime frais de santé + prévoyance doit obligatoirement exister dans ton entreprise depuis le 1ᵉʳ janvier 2024. Sinon, alerte ton délégué syndical !
 {{% /hint %}}
 
 {{< button href="https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf" >}}
 Texte consolidé officiel (10/06/2024)
 {{< /button >}}
 
-> Pour tout savoir sur tes droits dans la métallurgie, consulte notre page dédiée : [Convention collective métallurgique](/droits/convention)
+> Voir tous tes droits : [Convention collective métallurgique](/droits/convention-collective-metallurgique)

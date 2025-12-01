@@ -1,12 +1,16 @@
 ---
-title: Contestation de l’interprétation de la CCN au tribunal
-date: 2025-11-12T23:10:03.515Z
+title: "Contestation CNN"
+date: "2025-11-12T23:10:03.515Z"
 draft: true
 bookToC: true
-type: posts
+type: "posts"
 ---
 
-# La FGMM-CFDT affirme
+{{% hint info %}}
+Contestation de l’interprétation de la CCN au tribunal.
+{{% /hint %}}
+
+## La FGMM-CFDT affirme
 
 La FGMM-CFDT affirme que la prime d’ancienneté, les primes
 

@@ -1,5 +1,5 @@
 ---
-title: "Les grandes nouveautés de la convention collective métallurgie 2024"
+title: "Nouvelle CNN 2024"
 date: "2024-02-07"
 draft: true
 type: "posts"
@@ -23,7 +23,7 @@ Signée le 7 février 2022 par la CFDT, FO, CFE-CGC et l’UIMM, elle s’appliq
 | I      | Cadre supérieur / expert       | 68 000 €                |
 
 {{% hint success %}}
-**Garantie transitoire** : si votre salaire actuel est supérieur au nouveau minima de votre classe, il est **maintenu jusqu’en 2030** (voire au-delà pour les PME).
+**Garantie transitoire** : si ton salaire actuel est supérieur au nouveau minima de ta classe, il est **maintenu jusqu’en 2030** (voire au-delà pour les PME).
 {{% /hint %}}
 
 ### Protection sociale renforcée
@@ -40,7 +40,7 @@ Dossier CFDT FGMM
 {{< /button >}}
 
 {{% hint warning %}}
-Demandez dès maintenant à votre employeur votre nouvelle fiche de classification et votre garantie transitoire !
+Demande dès maintenant à ton employeur ta nouvelle fiche de classification et ta garantie transitoire !
 {{% /hint %}}
 
-> Pour tout savoir sur tes droits dans la métallurgie, consulte notre page dédiée : [Convention collective métallurgique](/droits/convention)
+> Voir tous tes droits : [Convention collective métallurgique](/droits/convention-collective-metallurgique)
