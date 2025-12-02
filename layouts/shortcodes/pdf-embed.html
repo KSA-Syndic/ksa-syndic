@@ -1,0 +1,12 @@
+
+{{- $url := .Get "url" -}}
+{{- $page := .Get "page" | default "1" -}}
+{{- $id := printf "pdfembed-%s" (substr ($url | md5) 0 8) -}}
+
+{{- if not ($.Page.Scratch.Get "pdf-embed-included") -}}
+<link rel="stylesheet" href="/css/pdf-viewer.css">
+<script src="/js/pdf-js/build/pdf.js"></script>
+{{- $.Page.Scratch.Set "pdf-embed-included" true -}}
+{{- end }}
+
+{{ partial "pdf-embed.html" (dict "url" $url "page" $page "id" $id) }}

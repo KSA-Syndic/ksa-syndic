@@ -1,0 +1,100 @@
+{{- $url := .url -}}
+{{- $page := .page | default "1" -}}
+{{- $id := .id -}}
+
+<div class="pdf-embed-container">
+  <div class="pdf-embed-loadingWrapper" id="pdf-loadingWrapper-{{ $id }}">
+    <div class="pdf-embed-loading"></div>
+  </div>
+  <canvas class="pdf-embed-canvas" id="pdf-canvas-{{ $id }}"></canvas>
+</div>
+
+
+<script>
+(function(){
+  var url = '{{ $url }}';
+  var page = {{ $page }};
+  var id = '{{ $id }}';
+  var pdfjsLib = window['pdfjs-dist/build/pdf'];
+  if (pdfjsLib.GlobalWorkerOptions.workerSrc == '')
+    pdfjsLib.GlobalWorkerOptions.workerSrc = '/js/pdf-js/build/pdf.worker.js';
+  var pdfDoc = null, pageNum = parseInt(page) || 1, pageRendering = false, pageNumPending = null, scale = 2;
+  var canvas = document.getElementById('pdf-canvas-' + id), ctx = canvas.getContext('2d');
+  var loadingWrapper = document.getElementById('pdf-loadingWrapper-' + id);
+  var pagenumEl = document.getElementById('pdf-pagenum-' + id);
+  var pagecountEl = document.getElementById('pdf-pagecount-' + id);
+  var prevBtn = document.getElementById('pdf-prev-' + id);
+  var nextBtn = document.getElementById('pdf-next-' + id);
+
+  // Si les éléments de navigation n'existent pas encore (ex: modal ouverte plusieurs fois), attendre qu'ils soient présents
+  function waitForNavElements(cb) {
+    if ((prevBtn && nextBtn && pagenumEl && pagecountEl) || (!document.getElementById('pdf-prev-' + id) && !document.getElementById('pdf-next-' + id))) {
+      cb();
+    } else {
+      setTimeout(function() { 
+        prevBtn = document.getElementById('pdf-prev-' + id);
+        nextBtn = document.getElementById('pdf-next-' + id);
+        pagenumEl = document.getElementById('pdf-pagenum-' + id);
+        pagecountEl = document.getElementById('pdf-pagecount-' + id);
+        waitForNavElements(cb);
+      }, 50);
+    }
+  }
+
+  function renderPage(num) {
+    pageRendering = true;
+    if (loadingWrapper) loadingWrapper.style.display = 'flex';
+    canvas.style.display = 'none';
+    pdfDoc.getPage(num).then(function(page) {
+      var viewport = page.getViewport({scale: scale});
+      canvas.height = viewport.height;
+      canvas.width = viewport.width;
+      var renderContext = {canvasContext: ctx, viewport: viewport};
+      var renderTask = page.render(renderContext);
+      renderTask.promise.then(function() {
+        pageRendering = false;
+        if (loadingWrapper) loadingWrapper.style.display = 'none';
+        canvas.style.display = 'block';
+        waitForNavElements(function() {
+          if (pagenumEl) pagenumEl.textContent = num;
+          if (pagecountEl) pagecountEl.textContent = pdfDoc.numPages;
+          if (prevBtn) prevBtn.disabled = (num <= 1);
+          if (nextBtn) nextBtn.disabled = (num >= pdfDoc.numPages);
+        });
+        if (pageNumPending !== null) {
+          renderPage(pageNumPending);
+          pageNumPending = null;
+        }
+      });
+    });
+  }
+  function queueRenderPage(num) {
+    if (pageRendering) pageNumPending = num;
+    else renderPage(num);
+  }
+  function bindNav() {
+    if (prevBtn) {
+      prevBtn.onclick = function() {
+        if (pageNum <= 1) return;
+        pageNum--;
+        queueRenderPage(pageNum);
+      };
+    }
+    if (nextBtn) {
+      nextBtn.onclick = function() {
+        if (pageNum >= pdfDoc.numPages) return;
+        pageNum++;
+        queueRenderPage(pageNum);
+      };
+    }
+  }
+  if (loadingWrapper) loadingWrapper.style.display = 'flex';
+  canvas.style.display = 'none';
+  pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+    pdfDoc = pdfDoc_;
+    if (pageNum > pdfDoc.numPages) pageNum = pdfDoc.numPages;
+    waitForNavElements(bindNav);
+    renderPage(pageNum);
+  });
+})();
+</script>

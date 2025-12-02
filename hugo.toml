@@ -1,7 +1,8 @@
 baseURL = "https://cfdt-kuhn.fr/"
 languageCode = 'fr-FR'
 title = 'Cfdt KUHN'
-theme = 'hugo-book'
+theme = ['hugo-book']
+enableInlineShortcodes = true
 enableGitInfo = true
 enableEmoji = true
 [params]

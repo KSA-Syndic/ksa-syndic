@@ -9,11 +9,21 @@ type: posts
 
 ### Convention
 
-- [Convention Collective Nationale de la Métallurgie (consolidée au 10/06/2024)](https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf)
-  - [Article: Référentiel de cotations des emplois](https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf#page=58)
-  - [Article: Grille de classement des emplois](https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf#page=60)
-  - [Article: Barème des salaires minimaux](https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf#page=161)
-  - [Article: Grille de remboursements et cotisations](https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CNN_metallurgie_consolidee-au-10-06-2024.pdf#page=189)
+- {{< pdf-modal url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="1" as="link" >}}
+Convention Collective Nationale de la Métallurgie (consolidée au 10/06/2024)
+{{< /pdf-modal >}}
+  - {{< pdf-modal url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="58" as="link" >}}
+Article: Référentiel de cotations des emplois
+{{< /pdf-modal >}}
+  - {{< pdf-modal url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="60" as="link" >}}
+Article: Grille de classement des emplois
+{{< /pdf-modal >}}
+  - {{< pdf-modal url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="161" as="link" >}}
+Article: Barème des salaires minimaux
+{{< /pdf-modal >}}
+  - {{< pdf-modal url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="189" as="link" >}}
+Article: Grille de remboursements et cotisations
+{{< /pdf-modal >}}
 
 <a href="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" 
    download="Convention-collective-metallurgie-2024-complete.pdf" 
@@ -23,8 +33,8 @@ type: posts
 
 ### Outils
 
-- [Guide classification](/uploads/documents/convention/Classification-Guide.pdf)
-- [Flyer classification](/uploads/documents/convention/Classification-Flyer.pdf)
+- {{< pdf-modal url="/uploads/documents/convention/Classification-Guide.pdf" as="link" >}}Guide classification{{< /pdf-modal >}}
+- {{< pdf-modal url="/uploads/documents/convention/Classification-Flyer.pdf" as="link" >}}Flyer classification{{< /pdf-modal >}}
 
 ### Liens utiles
 
