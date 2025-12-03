@@ -42,7 +42,7 @@ Voici tes droits nationaux, soit les minimas garantis. Ce à quoi ont été ajou
 | H      | 15     | 49                       | Ingénieur expérimenté, chef de projet      |
 | I      | 17     | 55                       | Expert, cadre dirigeant                    |
 
-{{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="→ Référentiel officiel de cotation (les 6 critères)" page="58" as="link" />}}
+{{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="→ Référentiel de cotation des emplois" page="58" as="link" />}}
 
 {{% /details %}}
 
@@ -63,7 +63,7 @@ Une fois ta **classe** connue, tu peux vérifier ton **salaire minima** garanti 
 | H      | 15     | 47 000 €            |
 | I      | 17     | 59 300 €            |
 
-{{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="→ Barème officiel" page="161" as="link" />}}
+{{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="→ Barème des salaires minima" page="161" as="link" />}}
 
 {{% /details %}}
 
@@ -158,7 +158,7 @@ flowchart TD
 
 {{% /details %}}
 
-> Tu veux en savoir plus ? Le {{< pdf-modal-btn url="/uploads/documents/convention/Classification-Guide.pdf" title="Guide classification" as="link" >}}guide complet avec exemples réels{{< /pdf-modal-btn >}} est là pour toi.
+> Tu veux en savoir plus ? Le {{< pdf-modal-btn url="/uploads/documents/convention/Classification-Guide.pdf" title="Guide de classification" as="link" >}}guide complet avec exemples réels{{< /pdf-modal-btn >}} est là pour toi.
 
 
 
