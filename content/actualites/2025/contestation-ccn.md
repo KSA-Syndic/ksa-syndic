@@ -1,9 +1,9 @@
 ---
-title: "Contestation CNN"
-date: "2025-11-12T23:10:03.515Z"
+title: Contestation CCN
+date: 2025-11-12T23:10:03.515Z
 draft: true
 bookToC: true
-type: "posts"
+type: posts
 ---
 
 {{% hint info %}}
