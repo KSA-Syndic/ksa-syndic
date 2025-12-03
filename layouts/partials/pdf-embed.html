@@ -53,6 +53,8 @@
       canvas.height = viewport.height * dpr;
       if (scale !== 1) {
         canvas.style.width = viewport.width + 'px';
+      } else {
+        canvas.style.width = '100%';
       }
       canvas.style.height = viewport.height + 'px';
       var renderContext = {canvasContext: ctx, viewport: viewport};
