@@ -1,10 +1,10 @@
 @media (max-width: 600px) {
   .pdf-modal-content {
-    width: 98vw;
-    max-width: 98vw;
+    width: 99vw;
+    max-width: 99vw;
     min-width: 0;
-    height: 98vh;
-    max-height: 98vh;
+    height: 99vh;
+    max-height: 99vh;
     border-radius: 8px;
     padding: 0;
   }
@@ -58,7 +58,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  overscroll-behavior: contain;
 }
 .pdf-modal-content {
   background: var(--body-background, #fff);
@@ -80,8 +79,7 @@
   align-items: stretch;
   justify-content: stretch;
   min-height: 0;
-  overflow-y: auto;
-  overscroll-behavior: contain;
+  overflow-y: hidden;
 }
 .pdf-modal-header {
   display: flex;
@@ -174,8 +172,11 @@
   width: 100%;
   height: auto;
   border: 1px solid var(--gray-500, #888);
+  overflow: auto;
+  box-sizing: border-box;
 }
 .pdf-embed-container .pdf-embed-canvas {
   width: 100%;
   height: auto;
+  display: block;
 }

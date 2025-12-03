@@ -18,7 +18,8 @@
   var pdfjsLib = window['pdfjs-dist/build/pdf'];
   if (pdfjsLib.GlobalWorkerOptions.workerSrc == '')
     pdfjsLib.GlobalWorkerOptions.workerSrc = '/js/pdf-js/build/pdf.worker.js';
-  var pdfDoc = null, pageNum = parseInt(page) || 1, pageRendering = false, pageNumPending = null, scale = 2;
+  var pdfDoc = null, pageNum = parseInt(page) || 1, pageRendering = false, pageNumPending = null, scale = 1.5;
+  var minScale = 0.5, maxScale = 5;
   var canvas = document.getElementById('pdf-canvas-' + id), ctx = canvas.getContext('2d');
   var loadingWrapper = document.getElementById('pdf-loadingWrapper-' + id);
   var pagenumEl = document.getElementById('pdf-pagenum-' + id);
@@ -47,9 +48,15 @@
     canvas.style.display = 'none';
     pdfDoc.getPage(num).then(function(page) {
       var viewport = page.getViewport({scale: scale});
-      canvas.height = viewport.height;
-      canvas.width = viewport.width;
+      var dpr = window.devicePixelRatio || 1;
+      canvas.width = viewport.width * dpr;
+      canvas.height = viewport.height * dpr;
+      if (scale !== 1) {
+        canvas.style.width = viewport.width + 'px';
+      }
+      canvas.style.height = viewport.height + 'px';
       var renderContext = {canvasContext: ctx, viewport: viewport};
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       var renderTask = page.render(renderContext);
       renderTask.promise.then(function() {
         pageRendering = false;
@@ -67,8 +74,57 @@
         }
       });
     });
+    // Scroll parent : scroll natif, pas de pan CSS
+    var parent = canvas.parentElement;
+    if (parent) parent.style.overflow = 'auto';
+    if (parent === document.body) document.body.style.overflow = '';
   }
+
+  // Zoom natif PDF.js (Ctrl+molette ou pinch sur mobile)
+  function setZoom(newScale) {
+    scale = Math.min(maxScale, Math.max(minScale, newScale));
+    renderPage(pageNum);
+  }
+
+  // Zoom avec Ctrl+molette sur PC
+  canvas.addEventListener('wheel', function(e) {
+    if (e.ctrlKey) {
+      e.preventDefault();
+      var delta = e.deltaY > 0 ? -0.2 : 0.2;
+      setZoom(scale + delta);
+    }
+    // Scroll natif sinon
+  }, { passive: false });
+
+  // Pinch-zoom sur mobile
+  var lastDist = null;
+  canvas.addEventListener('touchstart', function(e) {
+    if (e.touches.length === 2) {
+      lastDist = Math.hypot(
+        e.touches[0].clientX - e.touches[1].clientX,
+        e.touches[0].clientY - e.touches[1].clientY
+      );
+    }
+  });
+  canvas.addEventListener('touchmove', function(e) {
+    if (e.touches.length === 2 && lastDist !== null) {
+      e.preventDefault();
+      var newDist = Math.hypot(
+        e.touches[0].clientX - e.touches[1].clientX,
+        e.touches[0].clientY - e.touches[1].clientY
+      );
+      var delta = (newDist - lastDist) / 200; // Sensibilité
+      setZoom(scale + delta);
+      lastDist = newDist;
+    }
+  }, { passive: false });
+  canvas.addEventListener('touchend', function(e) {
+    if (e.touches.length < 2) lastDist = null;
+  });
+
+  // Pan natif via scroll du container
   function queueRenderPage(num) {
+    setZoom(1, true); // Reset zoom et pan à chaque changement de page
     if (pageRendering) pageNumPending = num;
     else renderPage(num);
   }
@@ -95,6 +151,16 @@
     if (pageNum > pdfDoc.numPages) pageNum = pdfDoc.numPages;
     waitForNavElements(bindNav);
     renderPage(pageNum);
+    setZoom(1, true); // Zoom initial à 1 et reset pan
   });
+
+  // Bloquer le scroll d'arrière-plan à l'ouverture de la modal
+  var modal = canvas.closest('.pdf-modal-overlay');
+  if (modal) {
+    document.body.style.overflow = 'hidden';
+    modal.addEventListener('close', function() {
+      document.body.style.overflow = '';
+    });
+  }
 })();
 </script>
