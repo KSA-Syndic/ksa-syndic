@@ -26,7 +26,7 @@ Signée le 7 février 2022 par la CFDT, FO, CFE-CGC et l’UIMM, elle s’appliq
 | ------ | ----------------------------- | ----------------------- |
 | A      | Ouvrier non qualifié          | 21 700 €                |
 | E      | Technicien / ouvrier qualifié | 28 200 €                |
-| I      | Cadre supérieur / expert      | 68 000 €                |
+| I      | Cadre supérieur / expert      | 59 300 €                |
 
 {{% hint success %}}
 **Garantie transitoire** : si ton salaire actuel est supérieur au nouveau minima de ta classe, il est **maintenu jusqu’en 2030** (voire au-delà pour les PME).
