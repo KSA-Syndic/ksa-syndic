@@ -9,21 +9,21 @@ type: posts
 
 ### Convention
 
-- {{< pdf-modal url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="1" as="link" >}}
-Convention Collective Nationale de la Métallurgie (consolidée au 10/06/2024)
-{{< /pdf-modal >}}
-  - {{< pdf-modal url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="58" as="link" >}}
+- {{< pdf-modal-btn url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="1" as="link" >}}
+Convention Collective Nationale de la Métallurgie
+{{< /pdf-modal-btn >}}
+  - {{< pdf-modal-btn url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="58" as="link" >}}
 Article: Référentiel de cotations des emplois
-{{< /pdf-modal >}}
-  - {{< pdf-modal url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="60" as="link" >}}
+{{< /pdf-modal-btn >}}
+  - {{< pdf-modal-btn url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="60" as="link" >}}
 Article: Grille de classement des emplois
-{{< /pdf-modal >}}
-  - {{< pdf-modal url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="161" as="link" >}}
+{{< /pdf-modal-btn >}}
+  - {{< pdf-modal-btn url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="161" as="link" >}}
 Article: Barème des salaires minimaux
-{{< /pdf-modal >}}
-  - {{< pdf-modal url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="189" as="link" >}}
+{{< /pdf-modal-btn >}}
+  - {{< pdf-modal-btn url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="189" as="link" >}}
 Article: Grille de remboursements et cotisations
-{{< /pdf-modal >}}
+{{< /pdf-modal-btn >}}
 
 <a href="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" 
    download="Convention-collective-metallurgie-2024-complete.pdf" 
@@ -33,8 +33,8 @@ Article: Grille de remboursements et cotisations
 
 ### Outils
 
-- {{< pdf-modal url="/uploads/documents/convention/Classification-Guide.pdf" as="link" >}}Guide classification{{< /pdf-modal >}}
-- {{< pdf-modal url="/uploads/documents/convention/Classification-Flyer.pdf" as="link" >}}Flyer classification{{< /pdf-modal >}}
+- {{< pdf-modal-btn url="/uploads/documents/convention/Classification-Guide.pdf" as="link" >}}Guide classification{{< /pdf-modal-btn >}}
+- {{< pdf-modal-btn url="/uploads/documents/convention/Classification-Flyer.pdf" as="link" >}}Flyer classification{{< /pdf-modal-btn >}}
 
 ### Liens utiles
 

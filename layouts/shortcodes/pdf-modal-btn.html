@@ -1,0 +1,13 @@
+{{- $url := .Get "url" -}}
+{{- $title := .Get "title" | default (.Inner | markdownify | plainify | chomp) | default (path.Base $url) -}}
+{{- $page := .Get "page" | default "1" -}}
+{{- $id := printf "pdf-modal-%s-%s" (substr ($url | md5) 0 8) $page -}}
+{{- $as := .Get "as" | default "button" -}}
+
+{{ $modalHtml := partial "pdf-modal-content.html" (dict "id" $id "title" $title "url" $url "page" $page) }}
+{{ if eq $as "link" }}
+<a href="javascript:void(0)" onclick="injectPdfModal('{{ $id }}', `{{ $modalHtml | safeHTML }}`)">{{ .Inner | markdownify }}</a>
+{{ else }}
+<a href="javascript:void(0)" class="book-btn" onclick="injectPdfModal('{{ $id }}', `{{ $modalHtml | safeHTML }}`)">{{ .Inner | markdownify }}</a>
+{{ end }}
+

@@ -1,0 +1,16 @@
+{{- $url := .url -}}
+{{- $page := .page | default "1" -}}
+{{- $id := .id | default (printf "pdfembed-%s-%s" (substr ($url | md5) 0 8) $page) -}}
+
+<div class="pdf-embed-container">
+  <div class="pdf-embed-loadingWrapper" id="pdf-loadingWrapper-{{ $id }}">
+    <div class="pdf-embed-loading"></div>
+  </div>
+  <canvas
+    class="pdf-embed-canvas"
+    id="pdf-canvas-{{ $id }}"
+    data-id="{{ $id }}"
+    data-url="{{ $url }}"
+    data-page="{{ $page }}"
+  ></canvas>
+</div>

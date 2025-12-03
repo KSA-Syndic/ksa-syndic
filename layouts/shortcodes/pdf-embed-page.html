@@ -1,0 +1,7 @@
+
+{{- $url := .Get "url" -}}
+{{- $page := .Get "page" | default "1" -}}
+{{- $id := printf "pdf-modal-%s-%s" (substr ($url | md5) 0 8) $page -}}
+
+
+{{ partial "pdf-embed-content.html" (dict "url" $url "page" $page "id" $id) }}
