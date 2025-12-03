@@ -149,6 +149,12 @@
   display: block;
 }
 
+p:has(.pdf-btn-inline) {
+  display: inline;
+  display: inline;
+  margin: 0;
+}
+
 /* Mobile breakpoint */
 @media (max-width: 800px) {
   .pdf-modal-content {

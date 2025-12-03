@@ -9,26 +9,16 @@ type: posts
 
 ### Convention
 
-- {{< pdf-modal-btn url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="1" as="link" >}}
-Convention Collective Nationale de la Métallurgie
-{{< /pdf-modal-btn >}}
-  - {{< pdf-modal-btn url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="58" as="link" >}}
-Article: Référentiel de cotations des emplois
-{{< /pdf-modal-btn >}}
-  - {{< pdf-modal-btn url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="60" as="link" >}}
-Article: Grille de classement des emplois
-{{< /pdf-modal-btn >}}
-  - {{< pdf-modal-btn url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="161" as="link" >}}
-Article: Barème des salaires minimaux
-{{< /pdf-modal-btn >}}
-  - {{< pdf-modal-btn url="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" page="189" as="link" >}}
-Article: Grille de remboursements et cotisations
-{{< /pdf-modal-btn >}}
+- {{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="Convention Collective Nationale de la Métallurgie" page="1" as="link" />}}
+  - {{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="Article: Référentiel de cotations des emplois" page="58" as="link" />}}
+  - {{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="Article: Grille de classement des emplois" page="60" as="link" />}}
+  - {{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="Article: Barème des salaires minimaux" page="161" as="link" />}}
+  - {{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="Article: Grille de remboursements et cotisations" page="189" as="link" />}}
 
-<a href="/uploads/documents/convention/CNN_metallurgie_consolidee-au-10-06-2024.pdf" 
+<a href="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" 
    download="Convention-collective-metallurgie-2024-complete.pdf" 
    class="book-btn">
-  Télécharger la convention complète
+  Télécharger la convention complète (PDF)
 </a>
 
 ### Outils
