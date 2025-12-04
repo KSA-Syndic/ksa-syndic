@@ -1,212 +1,223 @@
+// ================================================================
+// GLOBAL FIXES – Prevent system zoom & bad gestures (once)
+// ================================================================
+window.addEventListener('wheel', e => {
+  if (e.ctrlKey || e.metaKey) e.preventDefault();
+}, { passive: false });
 
+const blockBadGestures = e => { if (e.touches.length > 1) e.preventDefault(); };
+document.addEventListener('touchstart', blockBadGestures, { passive: false });
+document.addEventListener('touchmove',  blockBadGestures,  { passive: false });
 
-// --- Modal logic ---
+// ================================================================
+// MODAL LOGIC
+// ================================================================
 function injectPdfModal(id, html) {
-  if (!html) {
-    console.error('[MODAL] Aucun HTML modal fourni pour l’id :', id);
-    return;
-  }
-  if (!document.getElementById(id)) {
-    document.body.insertAdjacentHTML('beforeend', html);
-    const overlay = document.getElementById(id);
-    if (overlay) {
-      initPdfCanvases();
-      openPdfModal(id);
-    } else {
-      console.error('[MODAL] Erreur : le modal PDF n’a pas pu être injecté dans le DOM (id=' + id + ').');
-    }
-  } else {
-    openPdfModal(id);
-  }
-}
+  if (!html) return console.error('[MODAL] No HTML');
+  if (document.getElementById(id)) return openPdfModal(id);
+  document.body.insertAdjacentHTML('beforeend', html);
+  openPdfModal(id);
+  initPdfCanvases();
 
 function openPdfModal(id) {
   document.body.style.overflow = 'hidden';
   const overlay = document.getElementById(id);
-  if (!overlay) {
-    console.error('[MODAL] Overlay introuvable pour', id);
-    return;
-  }
+  if (!overlay) return;
   overlay.style.display = 'flex';
-  overlay.onclick = function (e) {
-    if (e.target === overlay) closePdfModal(id);
-  };
-  function escListener(ev) {
-    if (ev.key === 'Escape') {
-      closePdfModal(id);
-      document.removeEventListener('keydown', escListener);
-    }
-  }
-  document.addEventListener('keydown', escListener);
+  overlay.onclick = e => { if (e.target === overlay) closePdfModal(id); };
+  const esc = e => { if (e.key === 'Escape') { closePdfModal(id); document.removeEventListener('keydown', esc); } };
+  document.addEventListener('keydown', esc);
 }
 
 function closePdfModal(id) {
   document.body.style.overflow = '';
-  const overlay = document.getElementById(id);
-  if (overlay) {
-    overlay.parentNode.removeChild(overlay);
-  }
+  document.getElementById(id)?.remove();
 }
 
-// --- PDF.js viewer logic ---
+// ================================================================
+// PDF VIEWER
+// ================================================================
 function initPdfCanvases() {
   if (!window['pdfjs-dist/build/pdf']) return;
+
   const pdfjsLib = window['pdfjs-dist/build/pdf'];
-  if (pdfjsLib.GlobalWorkerOptions.workerSrc === '') {
+  if (!pdfjsLib.GlobalWorkerOptions.workerSrc) {
     pdfjsLib.GlobalWorkerOptions.workerSrc = '/js/pdf-js/build/pdf.worker.js';
   }
-  document.querySelectorAll('canvas.pdf-embed-canvas').forEach(function(canvas) {
-    if (canvas.dataset.initialized) return;
+
+  document.querySelectorAll('canvas.pdf-embed-canvas:not([data-initialized])').forEach(canvas => {
     canvas.dataset.initialized = '1';
-    const id = canvas.getAttribute('data-id');
-    const url = canvas.getAttribute('data-url');
-    const page = parseInt(canvas.getAttribute('data-page') || '1', 10);
-    const loadingWrapper = document.getElementById('pdf-loadingWrapper-' + id);
+
+    const container = canvas.closest('.pdf-embed-container');
+    if (!container) return;
+
+    // Force layout reflow for accurate sizing
+    void container.offsetHeight;
+
+    const id       = canvas.dataset.id;
+    const url      = canvas.dataset.url;
+    let pageNum    = Math.max(1, parseInt(canvas.dataset.page || '1', 10));
+
+    const loading  = document.getElementById('pdf-loadingWrapper-' + id);
     const pagenumEl = document.getElementById('pdf-pagenum-' + id);
     const pagecountEl = document.getElementById('pdf-pagecount-' + id);
-    const prevBtn = document.getElementById('pdf-prev-' + id);
-    const nextBtn = document.getElementById('pdf-next-' + id);
-    let pdfDoc = null, pageNum = page, pageRendering = false, pageNumPending = null, scale = 1;
-    const minScale = 0.5, maxScale = 5;
+    const prevBtn  = document.getElementById('pdf-prev-' + id);
+    const nextBtn  = document.getElementById('pdf-next-' + id);
+
+    let pdfDoc = null;
+    let pageRendering = false;
+    let pageNumPending = null;
+
+    // Scale state
+    let baseScale = 1;        // The "fit-to-width" scale of the current page
+    let userScale = 1;        // Multiplier applied by user (1 = fit-to-width)
+
+    const minUserScale = 0.5;
+    const maxUserScale = 5;
+
     const ctx = canvas.getContext('2d');
 
-    function waitForNavElements(cb) {
-      if ((prevBtn && nextBtn && pagenumEl && pagecountEl) || (!document.getElementById('pdf-prev-' + id) && !document.getElementById('pdf-next-' + id))) {
-        cb();
-      } else {
-        setTimeout(function() { waitForNavElements(cb); }, 50);
-      }
+    // ------------------------------------------------------------
+    // Core: compute final scale for current page
+    // ------------------------------------------------------------
+    function getFinalScale(page) {
+      const viewport = page.getViewport({ scale: 1 });
+      baseScale = container.clientWidth / viewport.width;  // always fit to container width
+      return baseScale * userScale;
     }
 
+    // ------------------------------------------------------------
+    // Render current page
+    // ------------------------------------------------------------
     function renderPage(num) {
       pageRendering = true;
-      if (loadingWrapper) loadingWrapper.style.display = 'flex';
+      if (loading) loading.style.display = 'flex';
       canvas.style.display = 'none';
-      pdfDoc.getPage(num).then(function(page) {
-        let usedScale = scale;
-        const parent = canvas.closest('.pdf-embed-container');
-        if (scale === 1 && parent) {
-          const parentRect = parent.getBoundingClientRect();
-          const parentWidth = parentRect.width;
-          const viewport1 = page.getViewport({scale: 1});
-          usedScale = parentWidth / viewport1.width;
-        }
-        const viewport = page.getViewport({scale: usedScale});
+
+      pdfDoc.getPage(num).then(page => {
+        const scale = getFinalScale(page);
+        const viewport = page.getViewport({ scale });
         const dpr = window.devicePixelRatio || 1;
-        let displayWidth = viewport.width;
-        let displayHeight = viewport.height;
-        canvas.width = displayWidth * dpr;
-        canvas.height = displayHeight * dpr;
-        canvas.style.width = displayWidth + 'px';
-        canvas.style.height = displayHeight + 'px';
+
+        // Exact pixel-perfect sizing → no horizontal scroll ever
+        canvas.width  = Math.floor(viewport.width * dpr);
+        canvas.height = Math.floor(viewport.height * dpr);
+        canvas.style.width  = viewport.width + 'px';
+        canvas.style.height = viewport.height + 'px';
+
         ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-        const renderContext = {canvasContext: ctx, viewport: viewport};
-        const renderTask = page.render(renderContext);
-        renderTask.promise.then(function() {
+
+        const renderTask = page.render({ canvasContext: ctx, viewport });
+        renderTask.promise.then(() => {
           pageRendering = false;
-          if (loadingWrapper) loadingWrapper.style.display = 'none';
+          if (loading) loading.style.display = 'none';
           canvas.style.display = 'block';
-          waitForNavElements(function() {
-            if (pagenumEl) pagenumEl.textContent = num;
-            if (pagecountEl) pagecountEl.textContent = pdfDoc.numPages;
-            if (prevBtn) prevBtn.disabled = (num <= 1);
-            if (nextBtn) nextBtn.disabled = (num >= pdfDoc.numPages);
-          });
+
+          // Update UI
+          if (pagenumEl) pagenumEl.textContent = num;
+          if (pagecountEl) pagecountEl.textContent = pdfDoc.numPages;
+          if (prevBtn) prevBtn.disabled = num <= 1;
+          if (nextBtn) nextBtn.disabled = num >= pdfDoc.numPages;
+
           if (pageNumPending !== null) {
             renderPage(pageNumPending);
             pageNumPending = null;
           }
-        }).catch(function(err) {
-          if (loadingWrapper) loadingWrapper.style.display = 'none';
+        }).catch(err => {
+          console.error('[PDF] Render error:', err);
+          if (loading) loading.style.display = 'none';
           canvas.style.display = 'none';
-          console.error('[PDF] Erreur lors du rendu de la page PDF :', err);
         });
-      }).catch(function(err) {
-        if (loadingWrapper) loadingWrapper.style.display = 'none';
+      }).catch(err => {
+        console.error('[PDF] Get page error:', err);
+        if (loading) loading.style.display = 'none';
         canvas.style.display = 'none';
-        console.error('[PDF] Erreur lors de l’accès à la page PDF :', err);
       });
     }
 
-    function setZoom(newScale) {
-      scale = Math.min(maxScale, Math.max(minScale, newScale));
+    // ------------------------------------------------------------
+    // Zoom control – userScale only
+    // ------------------------------------------------------------
+    function setUserScale(newUserScale) {
+      userScale = Math.max(minUserScale, Math.min(maxUserScale, newUserScale));
       renderPage(pageNum);
     }
 
-    canvas.addEventListener('wheel', function(e) {
-      if (e.ctrlKey) {
+    // Wheel zoom
+    canvas.addEventListener('wheel', e => {
+      if (e.ctrlKey || e.metaKey) {
         e.preventDefault();
-        const delta = e.deltaY > 0 ? -0.2 : 0.2;
-        setZoom(scale + delta);
+        e.stopPropagation();
+        const delta = e.deltaY > 0 ? 0.85 : 1.18;  // multiplicative (feels natural)
+        setUserScale(userScale * delta);
       }
     }, { passive: false });
 
-    // Pinch-zoom sur mobile
-    let lastDist = null;
-    canvas.addEventListener('touchstart', function(e) {
+    // Pinch zoom (mobile)
+    let pinchStartDist = 0;
+    let pinchStartUserScale = userScale;
+
+    canvas.addEventListener('touchstart', e => {
       if (e.touches.length === 2) {
-        lastDist = Math.hypot(
+        e.stopPropagation();
+        pinchStartDist = Math.hypot(
           e.touches[0].clientX - e.touches[1].clientX,
           e.touches[0].clientY - e.touches[1].clientY
         );
-      }
-    });
-    canvas.addEventListener('touchmove', function(e) {
-      if (e.touches.length === 2 && lastDist !== null) {
-        e.preventDefault();
-        const newDist = Math.hypot(
-          e.touches[0].clientX - e.touches[1].clientX,
-          e.touches[0].clientY - e.touches[1].clientY
-        );
-        const delta = (newDist - lastDist) / 200;
-        setZoom(scale + delta);
-        lastDist = newDist;
+        pinchStartUserScale = userScale;
       }
     }, { passive: false });
-    canvas.addEventListener('touchend', function(e) {
-      if (e.touches.length < 2) lastDist = null;
-    });
 
-    function queueRenderPage(num) {
-      setZoom(1, true);
+    canvas.addEventListener('touchmove', e => {
+      if (e.touches.length === 2 && pinchStartDist > 0) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        const dist = Math.hypot(
+          e.touches[0].clientX - e.touches[1].clientX,
+          e.touches[0].clientY - e.touches[1].clientY
+        );
+        const ratio = dist / pinchStartDist;
+        setUserScale(pinchStartUserScale * ratio);
+      }
+    }, { passive: false });
+
+    canvas.addEventListener('touchend', () => pinchStartDist = 0);
+
+    // ------------------------------------------------------------
+    // Page navigation – preserve zoom level
+    // ------------------------------------------------------------
+    function goToPage(n) {
+      if (n < 1 || n > pdfDoc.numPages) return;
+      pageNum = n;
       if (pageRendering) {
-        pageNumPending = num;
-      }
-      else {
-        renderPage(num);
-      }
-    }
-    function bindNav() {
-      if (prevBtn) {
-        prevBtn.onclick = function() {
-          if (pageNum <= 1) return;
-          pageNum--;
-          queueRenderPage(pageNum);
-        };
-      }
-      if (nextBtn) {
-        nextBtn.onclick = function() {
-          if (pageNum >= pdfDoc.numPages) return;
-          pageNum++;
-          queueRenderPage(pageNum);
-        };
+        pageNumPending = n;
+      } else {
+        renderPage(n);
       }
     }
-    if (loadingWrapper) loadingWrapper.style.display = 'flex';
+
+    if (prevBtn) prevBtn.onclick = () => goToPage(pageNum - 1);
+    if (nextBtn) nextBtn.onclick = () => goToPage(pageNum + 1);
+
+    // ------------------------------------------------------------
+    // Load PDF
+    // ------------------------------------------------------------
+    if (loading) loading.style.display = 'flex';
     canvas.style.display = 'none';
-    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-      pdfDoc = pdfDoc_;
-      if (pageNum > pdfDoc.numPages) pageNum = pdfDoc.numPages;
-      waitForNavElements(bindNav);
+
+    pdfjsLib.getDocument(url).promise.then(doc => {
+      pdfDoc = doc;
+      pageNum = Math.min(pageNum, pdfDoc.numPages);
+
+      // Initial render (userScale = 1 → perfect fit)
       renderPage(pageNum);
-    }).catch(function(err) {
-      if (loadingWrapper) loadingWrapper.style.display = 'none';
-      canvas.style.display = 'none';
-      console.error('[PDF] Erreur lors du chargement du PDF :', err);
+    }).catch(err => {
+      console.error('[PDF] Load error:', err);
+      if (loading) loading.style.display = 'none';
     });
   });
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-  initPdfCanvases();
-});
+// ================================================================
+document.addEventListener('DOMContentLoaded', initPdfCanvases);
