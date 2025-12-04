@@ -1,7 +1,7 @@
 ---
 date: "2025-11-27T00:00:00.000Z"
 draft: false
-title: "Convention collective métallurgique"
+title: "Convention collective métallurgie"
 type: "docs"
 tags: ["droits", "métallurgie", "classification", "salaire"]
 bookToC: true
