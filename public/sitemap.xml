@@ -9,28 +9,31 @@
     <lastmod>2025-11-09T22:17:11+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/documents/</loc>
-    <lastmod>2025-12-03T19:01:04+01:00</lastmod>
+    <lastmod>2025-12-04T00:15:56+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
     <lastmod>2025-11-26T22:05:02+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/classification/</loc>
-    <lastmod>2025-12-03T19:01:04+01:00</lastmod>
+    <lastmod>2025-11-27T00:51:57+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/droits/convention-collective-metallurgie/</loc>
-    <lastmod>2025-12-03T19:01:04+01:00</lastmod>
+    <loc>http://localhost:1313/droits/convention-collective-metallurgique/</loc>
+    <lastmod>2025-11-27T00:51:57+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/droits/</loc>
-    <lastmod>2025-12-03T19:01:04+01:00</lastmod>
+    <lastmod>2025-11-27T00:51:57+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/m%C3%A9tallurgie/</loc>
-    <lastmod>2025-12-03T19:01:04+01:00</lastmod>
+    <lastmod>2025-12-04T08:36:30+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/salaire/</loc>
-    <lastmod>2025-12-03T19:01:04+01:00</lastmod>
+    <lastmod>2025-12-01T15:14:13+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-12-03T19:01:04+01:00</lastmod>
+    <lastmod>2025-12-04T08:36:30+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/actualites/2025/contestation-ccn/</loc>
+    <lastmod>2025-12-04T00:49:33+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/cong%C3%A9s/</loc>
     <lastmod>2025-11-27T00:32:03+01:00</lastmod>
@@ -64,6 +67,33 @@
   </url><url>
     <loc>http://localhost:1313/tags/retraite/</loc>
     <lastmod>2025-12-01T15:14:13+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/avenant/</loc>
+    <lastmod>2025-12-04T08:36:30+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/actualites/2024/nouveautes-convention-2024/</loc>
+    <lastmod>2025-12-04T08:36:30+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/indemnit%C3%A9/</loc>
+    <lastmod>2025-12-04T08:36:30+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/prime/</loc>
+    <lastmod>2025-12-04T08:36:30+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cfdt/</loc>
+    <lastmod>2025-12-04T08:36:30+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/convention/</loc>
+    <lastmod>2025-12-04T08:36:30+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/fo/</loc>
+    <lastmod>2025-12-04T08:36:30+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/actualites/2024/nouvelle-convention-2024/</loc>
+    <lastmod>2025-12-04T08:36:30+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/uimm/</loc>
+    <lastmod>2025-12-04T08:36:30+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url>
