@@ -47,8 +47,8 @@ Priorité aux alternants, femmes et aidants.
 Un régime frais de santé + prévoyance doit obligatoirement exister dans ton entreprise depuis le 1ᵉʳ janvier 2024. Sinon, alerte ton délégué syndical !
 {{% /hint %}}
 
-{{% button href="[https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CCN\_metallurgie\_consolidee-au-10-06-2024.pdf](https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CCN_metallurgie_consolidee-au-10-06-2024.pdf)" %}}
+{{\< button href="[https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CCN\_metallurgie\_consolidee-au-10-06-2024.pdf](https://uimm.lafabriquedelavenir.fr/wp-content/uploads/2022/02/CCN_metallurgie_consolidee-au-10-06-2024.pdf)" >}}
 Texte consolidé officiel (10/06/2024)
-{{% /button %}}
+{{\< /button >}}
 
 > Voir tous tes droits : [Convention collective métallurgique](/droits/convention-collective-metallurgique)
