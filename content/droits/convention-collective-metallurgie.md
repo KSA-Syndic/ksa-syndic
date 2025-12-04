@@ -19,7 +19,7 @@ Ouvrir la convention
 # Vos droits en détail
 
 {{% hint warning %}}
-Voici tes droits nationaux, soit les minimas garantis. Ce à quoi ont été ajoutées les infos sur l'accord d'entreprise Kuhn. Des détails vont encore être apportés prochainement.
+Voici tes droits nationaux, soit les minimas garantis. Ce à quoi ont été ajoutées les spécifications de l'accord d'entreprise Kuhn. Des détails vont cependant encore être apportés prochainement.
 {{% /hint %}}
 
 {{% details "Classification" %}}
