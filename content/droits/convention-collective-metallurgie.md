@@ -42,7 +42,7 @@ Voici tes droits nationaux, soit les minimas garantis. Ce à quoi ont été ajou
 | H      | 15     | 49                       | Ingénieur expérimenté, chef de projet      |
 | I      | 17     | 55                       | Expert, cadre dirigeant                    |
 
-{{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="→ Référentiel de cotation des emplois" page="58" as="link" />}}
+{{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="→ Référentiel de cotation des emplois (6 critères)" page="58" as="link" />}}
 
 {{% /details %}}
 
@@ -91,8 +91,8 @@ Pas de prime d’ancienneté automatique comme pour les classes 1-10.
 - **Indemnité de licenciement majorée** : +20 % si ≥50 ans et ≥5 ans d’ancienneté ; +30 % si ≥55 ans.
 - **Autres avantages** : Possibilité de prime via accord d’entreprise, mais pas de socle national. Vérifiez votre contrat ou contactez votre syndicat pour une simulation personnalisée.
 
-{{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="→ Taux d'ancienneté" page="162" as="link" />}}
-{{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="→ Majorations cadre" page="161" as="link" />}}
+{{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="→ Taux d'ancienneté" page="162" as="link" />}}  
+{{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="→ Majorations cadre" page="161" as="link" />}}  
 {{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="→ Indemnités licenciement (bas de page)" page="75" as="link" />}}  
 
 ### Chez Kuhn 
@@ -101,14 +101,14 @@ Pas de prime d’ancienneté automatique comme pour les classes 1-10.
 - limite portée à 15 ans d’ancienneté,
 - taux appliqués sur le salaire brut de base (et non sur la valeur du point).
 - barème spécifique :
-| Classe d’emplois | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  |10% |11% |12% |13% |14% |15% |25% |
-|-----------------|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
-| Taux            | 2% | 3% | 4% | 5% | 6% | 7% | 8% | 9% |10% |11% |12% |13% |14% |15% |16% |
+| Nombre d'années d'ancienneté | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  |10  |11  |12  |13  |14  |15  |25  |
+|------------------------------|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+| Taux                         | 2% | 3% | 4% | 5% | 6% | 7% | 8% | 9% |10% |11% |12% |13% |14% |15% |16% |
 
 {{% /details %}}
 
 {{% details "Temps de travail et congés" %}}
-## Durée du travail et des congés
+## Temps de travail et congés
 
 * 35 h/semaine ou forfait jours (max 218 jours/an)
 * Maximum 220 heures sup par an sans accord spécial

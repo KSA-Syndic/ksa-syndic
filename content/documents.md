@@ -16,7 +16,7 @@ type: posts
   - {{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="Article: Grille de remboursements et cotisations" page="189" as="link" />}}
 
 <a href="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" 
-   download="Convention-collective-metallurgie-2024-complete.pdf" 
+   download="Convention-collective-metallurgie-10-06-2024.pdf" 
    class="book-btn">
   Télécharger la convention complète (PDF)
 </a>
