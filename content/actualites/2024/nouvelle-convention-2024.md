@@ -38,13 +38,13 @@ Signée le 7 février 2022 par la CFDT, FO, CFE-CGC et l’UIMM, elle s’appliq
 * Prévoyance : indemnités maladie jusqu’à **100 % du salaire brut** pendant 90 à 180 jours (selon ancienneté)
 * Rente invalidité jusqu’à 75 % du salaire de référence
 
-{{% button href="[https://uimm.lafabriquedelavenir.fr/textes-conventionnels-metallurgie/](https://uimm.lafabriquedelavenir.fr/textes-conventionnels-metallurgie/)" %}}
+{{\< button href="[https://uimm.lafabriquedelavenir.fr/textes-conventionnels-metallurgie/](https://uimm.lafabriquedelavenir.fr/textes-conventionnels-metallurgie/)" >}}
 Textes officiels UIMM
-{{% /button %}}
+{{\< /button >}}
 
-{{% button href="[https://cfdt-fgmm.fr/dispositif-conventionnel-tracts-et-infos/](https://cfdt-fgmm.fr/dispositif-conventionnel-tracts-et-infos/)" %}}
+{{\< button href="[https://cfdt-fgmm.fr/dispositif-conventionnel-tracts-et-infos/](https://cfdt-fgmm.fr/dispositif-conventionnel-tracts-et-infos/)" >}}
 Dossier CFDT FGMM
-{{% /button %}}
+{{\< /button >}}
 
 {{% hint warning %}}
 Demande dès maintenant à ton employeur ta nouvelle fiche de classification et ta garantie transitoire !
