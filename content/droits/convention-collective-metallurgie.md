@@ -16,9 +16,7 @@ tags:
 Applicable à tous depuis le 1ᵉʳ janvier 2024.
 {{% /hint %}}
 
-{{\< pdf-modal-btn url="/uploads/documents/convention/CCN\_metallurgie\_consolidee-au-10-06-2024.pdf" title="Convention collective nationale de la métallurgie" as="button" >}}
-Ouvrir la convention
-{{\< /pdf-modal-btn >}}
+{{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" title="Convention collective nationale de la métallurgie" as="button" />}}
 
 # Vos droits en détail
 
@@ -47,7 +45,7 @@ Voici tes droits nationaux, soit les minimas garantis. Ce à quoi ont été ajou
 | H      | 15     | 49                       | Ingénieur expérimenté, chef de projet      |
 | I      | 17     | 55                       | Expert, cadre dirigeant                    |
 
-{{\< pdf-modal-btn url="/uploads/documents/convention/CCN\_metallurgie\_consolidee-au-10-06-2024.pdf" text="→ Référentiel de cotation des emplois (6 critères)" page="58" as="link" />}}
+{{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="→ Référentiel de cotation des emplois (6 critères)" page="58" as="link" />}}
 
 {{% /details %}}
 
@@ -69,7 +67,7 @@ Une fois ta **classe** connue, tu peux vérifier ton **salaire minima** garanti 
 | H      | 15     | 47 000 €            |
 | I      | 17     | 59 300 €            |
 
-{{\< pdf-modal-btn url="/uploads/documents/convention/CCN\_metallurgie\_consolidee-au-10-06-2024.pdf" text="→ Barème des salaires minima" page="161" as="link" />}}
+{{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="→ Barème des salaires minima" page="161" as="link" />}}
 
 {{% /details %}}
 
@@ -102,9 +100,9 @@ Pas de prime d’ancienneté automatique comme pour les classes 1-10.
 * **Indemnité de licenciement majorée** : +20 % si ≥50 ans et ≥5 ans d’ancienneté ; +30 % si ≥55 ans.
 * **Autres avantages** : Possibilité de prime via accord d’entreprise, mais pas de socle national. Vérifiez votre contrat ou contactez votre syndicat pour une simulation personnalisée.
 
-{{\< pdf-modal-btn url="/uploads/documents/convention/CCN\_metallurgie\_consolidee-au-10-06-2024.pdf" text="→ Taux d'ancienneté" page="162" as="link" />}} <br>
-{{\< pdf-modal-btn url="/uploads/documents/convention/CCN\_metallurgie\_consolidee-au-10-06-2024.pdf" text="→ Majorations cadre" page="161" as="link" />}} <br>
-{{\< pdf-modal-btn url="/uploads/documents/convention/CCN\_metallurgie\_consolidee-au-10-06-2024.pdf" text="→ Indemnités licenciement (bas de page)" page="75" as="link" />}}
+{{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="→ Taux d'ancienneté" page="162" as="link" />}} <br>
+{{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="→ Majorations cadre" page="161" as="link" />}} <br>
+{{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="→ Indemnités licenciement (bas de page)" page="75" as="link" />}}
 
 ### Chez Kuhn
 
@@ -129,7 +127,7 @@ Pas de prime d’ancienneté automatique comme pour les classes 1-10.
 * 5 semaines de congés + **1 jour supplémentaire dès que tu as 45 ans**
 * Travail de nuit = −20 min par jour, soit +15 % minimum du salaire horaire
 
-{{\< pdf-modal-btn url="/uploads/documents/convention/CCN\_metallurgie\_consolidee-au-10-06-2024.pdf" text="→ Glossaire relatif à la durée de travail" page="160" as="link" />}}
+{{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" text="→ Glossaire relatif à la durée de travail" page="160" as="link" />}}
 
 {{% /details %}}
 
@@ -137,7 +135,7 @@ Pas de prime d’ancienneté automatique comme pour les classes 1-10.
 
 ## Schéma récapitulatif estimation classification et salaires
 
-{{\< mermaid >}}
+{{< mermaid >}}
 flowchart TD
 A\["Commence ici"]:::start --> B\["Je cote mon poste <br> (6 critères)"]:::step
 B --> C\["Je calcule le total"]:::step
@@ -171,11 +169,11 @@ class K alert;
 class L success;
 ```
 
-{{\< /mermaid >}}
+{{< /mermaid >}}
 
 {{% /details %}}
 
-> Tu veux en savoir plus ? Le {{\< pdf-modal-btn url="/uploads/documents/convention/Classification-Guide.pdf" title="Guide de classification" as="link" >}}guide complet avec exemples réels{{\< /pdf-modal-btn >}} est là pour toi.
+> Tu veux en savoir plus ? Le {{< pdf-modal-btn url="/uploads/documents/convention/Classification-Guide.pdf" title="Guide de classification" as="link" >}}guide complet avec exemples réels{{< /pdf-modal-btn >}} est là pour toi.
 
 {{% hint success %}}
 N'hésite pas à contacter ton syndicat pour toute question ou accompagnement !
