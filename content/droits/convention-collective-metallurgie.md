@@ -16,7 +16,9 @@ tags:
 Applicable à tous depuis le 1ᵉʳ janvier 2024.
 {{% /hint %}}
 
-{{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" title="Convention collective nationale de la métallurgie" as="button" />}}
+{{< pdf-modal-btn url="/uploads/documents/convention/CCN_metallurgie_consolidee-au-10-06-2024.pdf" title="Convention collective nationale de la métallurgie" as="button" >}}
+Ouvrir la convention
+{{< /pdf-modal-btn >}}
 
 # Vos droits en détail
 
@@ -111,9 +113,9 @@ Pas de prime d’ancienneté automatique comme pour les classes 1-10.
 * limite portée à 15 ans d’ancienneté,
 * taux appliqués sur le salaire brut de base (et non sur la valeur du point).
 * barème spécifique :
-  \| Nombre d'années d'ancienneté | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  |10  |11  |12  |13  |14  |15  |25  |
-  \|------------------------------|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
-  \| Taux                         | 2% | 3% | 4% | 5% | 6% | 7% | 8% | 9% |10% |11% |12% |13% |14% |15% |16% |
+  | Nombre d'années d'ancienneté | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  |10  |11  |12  |13  |14  |15  |25  |
+  |------------------------------|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+  | Taux                         | 2% | 3% | 4% | 5% | 6% | 7% | 8% | 9% |10% |11% |12% |13% |14% |15% |16% |
 
 {{% /details %}}
 
@@ -135,22 +137,21 @@ Pas de prime d’ancienneté automatique comme pour les classes 1-10.
 
 ## Schéma récapitulatif estimation classification et salaires
 
-{{< mermaid >}}
+``` mermaid
 flowchart TD
-A\["Commence ici"]:::start --> B\["Je cote mon poste <br> (6 critères)"]:::step
-B --> C\["Je calcule le total"]:::step
-C --> D\["Je trouve ma classe"]:::step
-D --> E\["Je regarde le salaire minimum de ma classe"]:::step
-E --> F{"J'ai au moins 2 ans d'ancienneté ?"}:::question
-F -- "Oui" --> G\["Ajoute la prime d'ancienneté"]:::bonus
-F -- "Non" --> H\["Pas de prime d'ancienneté"]:::neutral
-G --> I\["Je compare avec mon salaire reel"]:::step
-H --> I
-I --> J{"Mon salaire reel est-il inferieur au minimum ?"}:::question
-J -- "Oui" --> K\["Rattrapage et arriérés"]:::alert
-J -- "Non" --> L\["Tout est conforme"]:::success
+    A["Commence ici"]:::start --> B["Je cote mon poste <br> (6 critères)"]:::step
+    B --> C["Je calcule le total"]:::step
+    C --> D["Je trouve ma classe"]:::step
+    D --> E["Je regarde le salaire minimum de ma classe"]:::step
+    E --> F{"J'ai au moins 2 ans d'ancienneté ?"}:::question
+    F -- "Oui" --> G["Ajoute la prime d'ancienneté"]:::bonus
+    F -- "Non" --> H["Pas de prime d'ancienneté"]:::neutral
+    G --> I["Je compare avec mon salaire reel"]:::step
+    H --> I
+    I --> J{"Mon salaire reel est-il inferieur au minimum ?"}:::question
+    J -- "Oui" --> K["Rattrapage et arriérés"]:::alert
+    J -- "Non" --> L["Tout est conforme"]:::success
 
-```
 %% Styles Mermaid
 classDef start fill:#003087,stroke:#00205b,stroke-width:2px,color:#fff;
 classDef step fill:#e3eafc,stroke:#003087,stroke-width:1.5px,color:#003087;
@@ -168,8 +169,6 @@ class H neutral;
 class K alert;
 class L success;
 ```
-
-{{< /mermaid >}}
 
 {{% /details %}}
 
