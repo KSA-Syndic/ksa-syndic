@@ -237,6 +237,10 @@ function initPdfCanvases() {
       }
     }, { passive: false });
     let pinchLiveScale = 1;
+    function getPinchVisualScale() {
+      // Le scale visuel doit être relatif au scale de rendu réel (userScale)
+      return pinchLiveScale / userScale;
+    }
     canvas.addEventListener('touchmove', e => {
       if (e.touches.length === 2 && pinchStartDist > 0) {
         e.preventDefault();
@@ -246,8 +250,8 @@ function initPdfCanvases() {
         );
         const pinchScale = dist / pinchStartDist;
         pinchLiveScale = Math.max(minUserScale, Math.min(maxUserScale, pinchStartScale * pinchScale));
-        // Zoom visuel temporaire
-        applyTransformScale(pinchLiveScale, zoomCenter);
+        // Zoom visuel temporaire, relatif au scale réel
+        applyTransformScale(getPinchVisualScale(), zoomCenter);
       }
     }, { passive: false });
 
