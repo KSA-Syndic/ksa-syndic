@@ -69,14 +69,13 @@ function initPdfCanvases() {
     let pageRendering = false;
     let pageNumPending = null;
 
-    // Zoom state – reset to 1 on every page change
+    // --- ZOOM STATE ---
     let baseScale = 1;     // auto-fit scale of current page
     let userScale = 1;     // user zoom (1 = fit-to-width)
-
     const minUserScale = 0.5;
     const maxUserScale = 5;
-
     const ctx = canvas.getContext('2d');
+    let zoomCenter = { x: 0.5, y: 0.5 }; // centre relatif (0..1)
 
     function getFinalScale(page) {
       const viewport = page.getViewport({ scale: 1 });
@@ -88,6 +87,10 @@ function initPdfCanvases() {
       pageRendering = true;
       if (loading) loading.style.display = 'flex';
       canvas.style.display = 'none';
+
+      // --- Scroll Center Preservation ---
+      const parent = canvas.parentElement;
+      const restoreScrollCenter = zoomCenter || { x: 0.5, y: 0.5 };
 
       pdfDoc.getPage(num).then(page => {
         const scale    = getFinalScale(page);
@@ -106,6 +109,14 @@ function initPdfCanvases() {
             pageRendering = false;
             if (loading) loading.style.display = 'none';
             canvas.style.display = 'block';
+
+            // --- Restore scroll center after render ---
+            if (parent && restoreScrollCenter) {
+              const cw = canvas.offsetWidth, ch = canvas.offsetHeight;
+              const pw = parent.offsetWidth, ph = parent.offsetHeight;
+              parent.scrollLeft = Math.max(0, (cw * restoreScrollCenter.x) - pw / 2);
+              parent.scrollTop  = Math.max(0, (ch * restoreScrollCenter.y) - ph / 2);
+            }
 
             if (pagenumEl)   pagenumEl.textContent   = num;
             if (pagecountEl) pagecountEl.textContent = pdfDoc.numPages;
@@ -127,45 +138,104 @@ function initPdfCanvases() {
       });
     }
 
-    function setUserScale(newScale) {
-      userScale = Math.max(minUserScale, Math.min(maxUserScale, newScale));
-      renderPage(pageNum);
+    // --- ZOOM LOGIC ---
+    let pendingScale = null;
+    let pinchActive = false;
+    let ctrlActive = false;
+
+    // --- ZOOM TRANSITION & SCROLL ---
+    let lastZoomCenter = { x: 0.5, y: 0.5 };
+    function getZoomCenter(e) {
+      // Pour wheel : centre du canvas, pour pinch : centre des doigts
+      if (e && e.touches && e.touches.length === 2) {
+        const rect = canvas.getBoundingClientRect();
+        const x = (e.touches[0].clientX + e.touches[1].clientX) / 2 - rect.left;
+        const y = (e.touches[0].clientY + e.touches[1].clientY) / 2 - rect.top;
+        return { x: x / rect.width, y: y / rect.height };
+      }
+      // Pour wheel, centre du canvas
+      return { x: 0.5, y: 0.5 };
     }
 
-    // Wheel zoom
+    function applyTransformScale(scale, center = lastZoomCenter) {
+      canvas.style.transformOrigin = `${center.x * 100}% ${center.y * 100}%`;
+      canvas.style.transform = `scale(${scale})`;
+      canvas.style.transition = 'transform 0.1s';
+      lastZoomCenter = center;
+    }
+    function clearTransformScale() {
+      canvas.style.transform = '';
+      canvas.style.transition = '';
+      canvas.style.transformOrigin = '';
+    }
+
+    function adjustScrollAfterRender(center) {
+      // centre = {x: 0..1, y: 0..1} relatif au canvas
+      const parent = canvas.parentElement;
+      if (!parent || !canvas) return;
+      const cw = canvas.offsetWidth, ch = canvas.offsetHeight;
+      const pw = parent.offsetWidth, ph = parent.offsetHeight;
+      // centre du zoom dans le parent
+      const targetX = Math.max(0, (cw * center.x) - pw / 2);
+      const targetY = Math.max(0, (ch * center.y) - ph / 2);
+      parent.scrollLeft = targetX;
+      parent.scrollTop = targetY;
+    }
+
+    function setUserScale(newScale, render = true) {
+      // Cumul du zoom, pas de reset
+      userScale = Math.max(minUserScale, Math.min(maxUserScale, newScale));
+      if (render) renderPage(pageNum);
+    }
+
+    // --- WHEEL ZOOM (Ctrl) ---
     canvas.addEventListener('wheel', e => {
       if (e.ctrlKey || e.metaKey) {
         e.preventDefault();
         e.stopPropagation();
         const factor = e.deltaY > 0 ? 0.85 : 1.18;
-        setUserScale(userScale * factor);
+        const newScale = Math.max(minUserScale, Math.min(maxUserScale, userScale * factor));
+        // Centre du zoom relatif à la position souris
+        const rect = canvas.getBoundingClientRect();
+        zoomCenter = {
+          x: ((e.clientX - rect.left) / rect.width),
+          y: ((e.clientY - rect.top) / rect.height)
+        };
+        userScale = newScale;
+        renderPage(pageNum);
       }
     }, { passive: false });
 
-    // Pinch zoom
+    // --- PINCH ZOOM (Mobile) ---
     let pinchStartDist = 0;
     let pinchStartScale = userScale;
-
     canvas.addEventListener('touchstart', e => {
       if (e.touches.length === 2) {
-        e.stopPropagation();
-        pinchStartDist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX,
-                                   e.touches[0].clientY - e.touches[1].clientY);
+        pinchStartDist = Math.hypot(
+          e.touches[0].clientX - e.touches[1].clientX,
+          e.touches[0].clientY - e.touches[1].clientY
+        );
         pinchStartScale = userScale;
+        // Centre du pinch
+        const rect = canvas.getBoundingClientRect();
+        zoomCenter = {
+          x: ((e.touches[0].clientX + e.touches[1].clientX) / 2 - rect.left) / rect.width,
+          y: ((e.touches[0].clientY + e.touches[1].clientY) / 2 - rect.top) / rect.height
+        };
       }
     }, { passive: false });
-
     canvas.addEventListener('touchmove', e => {
       if (e.touches.length === 2 && pinchStartDist > 0) {
         e.preventDefault();
-        e.stopPropagation();
-        const dist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX,
-                               e.touches[0].clientY - e.touches[1].clientY);
-        setUserScale(pinchStartScale * (dist / pinchStartDist));
+        const dist = Math.hypot(
+          e.touches[0].clientX - e.touches[1].clientX,
+          e.touches[0].clientY - e.touches[1].clientY
+        );
+        const pinchScale = dist / pinchStartDist;
+        userScale = Math.max(minUserScale, Math.min(maxUserScale, pinchStartScale * pinchScale));
+        renderPage(pageNum);
       }
     }, { passive: false });
-
-    canvas.addEventListener('touchend', () => pinchStartDist = 0);
 
     // NAVIGATION
     function goToPage(n) {
