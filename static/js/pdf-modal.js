@@ -90,7 +90,12 @@ function initPdfCanvases() {
 
       // --- Scroll Center Preservation ---
       const parent = canvas.parentElement;
-      const restoreScrollCenter = zoomCenter || { x: 0.5, y: 0.5 };
+      // Si c'est le premier rendu, force le scroll en haut de page
+      let restoreScrollCenter = zoomCenter || { x: 0.5, y: 0.5 };
+      if (typeof renderPage.first === 'undefined') {
+        restoreScrollCenter = { x: restoreScrollCenter.x, y: 0 };
+        renderPage.first = false;
+      }
 
       pdfDoc.getPage(num).then(page => {
         const scale    = getFinalScale(page);
@@ -114,8 +119,15 @@ function initPdfCanvases() {
             if (parent && restoreScrollCenter) {
               const cw = canvas.offsetWidth, ch = canvas.offsetHeight;
               const pw = parent.offsetWidth, ph = parent.offsetHeight;
-              parent.scrollLeft = Math.max(0, (cw * restoreScrollCenter.x) - pw / 2);
-              parent.scrollTop  = Math.max(0, (ch * restoreScrollCenter.y) - ph / 2);
+              // Si premier rendu, force scroll en haut
+              if (renderPage.first === true) {
+                parent.scrollTop = 0;
+                zoomCenter.y = 0;
+                renderPage.first = false;
+              } else {
+                parent.scrollLeft = Math.max(0, (cw * restoreScrollCenter.x) - pw / 2);
+                parent.scrollTop  = Math.max(0, (ch * restoreScrollCenter.y) - ph / 2);
+              }
             }
 
             if (pagenumEl)   pagenumEl.textContent   = num;
@@ -224,6 +236,7 @@ function initPdfCanvases() {
         };
       }
     }, { passive: false });
+    let pinchLiveScale = 1;
     canvas.addEventListener('touchmove', e => {
       if (e.touches.length === 2 && pinchStartDist > 0) {
         e.preventDefault();
@@ -232,16 +245,28 @@ function initPdfCanvases() {
           e.touches[0].clientY - e.touches[1].clientY
         );
         const pinchScale = dist / pinchStartDist;
-        userScale = Math.max(minUserScale, Math.min(maxUserScale, pinchStartScale * pinchScale));
-        renderPage(pageNum);
+        pinchLiveScale = Math.max(minUserScale, Math.min(maxUserScale, pinchStartScale * pinchScale));
+        // Zoom visuel temporaire
+        applyTransformScale(pinchLiveScale, zoomCenter);
       }
     }, { passive: false });
+
+    canvas.addEventListener('touchend', e => {
+      // Fin du pinch : applique le zoom réel et relance le rendu PDF.js
+      if (pinchStartDist > 0) {
+        userScale = pinchLiveScale;
+        clearTransformScale();
+        renderPage(pageNum);
+        pinchStartDist = 0;
+      }
+    });
 
     // NAVIGATION
     function goToPage(n) {
       if (n < 1 || n > pdfDoc.numPages) return;
       pageNum = n;
       userScale = 1;  // ZOOM RESET
+      zoomCenter = { x: 0.5, y: 0 }; // Reset scroll en haut à chaque page
       if (pageRendering) {
         pageNumPending = n;
       } else {
@@ -259,6 +284,8 @@ function initPdfCanvases() {
     pdfjsLib.getDocument(url).promise.then(doc => {
       pdfDoc = doc;
       pageNum = Math.min(pageNum, pdfDoc.numPages);
+      zoomCenter = { x: 0.5, y: 0 }; // Reset scroll en haut à chaque nouveau document
+      renderPage.first = true;
       renderPage(pageNum);
     }).catch(err => {
       console.error('[PDF] Load failed:', err);
