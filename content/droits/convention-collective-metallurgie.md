@@ -77,7 +77,7 @@ Une fois ta **classe** connue, tu peux vérifier ton **salaire minima** garanti 
 
 ## Prime d’ancienneté
 
-On l'obtient dès 1 an (2 ans chez Kuhn) dans la même entreprise et dans la limite de 10 ans d’ancienneté (15 ans chez Kuhn).
+On l'obtient dès 3 ans (2 ans chez Kuhn) dans la même entreprise et elle plafonne à 15 ans d’ancienneté.
 
 | Classe d’emplois | 1     | 2    | 3     | 4     | 5    | 6     | 7    | 8    | 9    | 10   |
 | ---------------- | ----- | ---- | ----- | ----- | ---- | ----- | ---- | ---- | ---- | ---- |
