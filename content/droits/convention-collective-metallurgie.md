@@ -78,12 +78,16 @@ Une fois ta **classe** connue, tu peux vérifier ton **salaire minima** garanti 
 ## Prime d’ancienneté
 
 On l'obtient dès 3 ans (2 ans chez Kuhn) dans la même entreprise et elle plafonne à 15 ans d’ancienneté.
+Au national elle ne s'applique qu'aux classes 1 à 10 (groupes A à E).
+Or dans l'accord d'entreprise Kuhn elle est étendue à toutes les classes, avec un barème spécifique (cf. [Chez kuhn](#chez-kuhn)).
+
+### Au national
+
+Voici les taux applicables selon la classe d’emploi (de 1 à 10) :
 
 | Classe d’emplois | 1     | 2    | 3     | 4     | 5    | 6     | 7    | 8    | 9    | 10   |
 | ---------------- | ----- | ---- | ----- | ----- | ---- | ----- | ---- | ---- | ---- | ---- |
 | Taux             | 1,45% | 1,6% | 1,75% | 1,95% | 2,2% | 2,45% | 2,6% | 2,9% | 3,3% | 3,8% |
-
-### Formule exacte
 
 Prime mensuelle = \[\[valeur du point × taux] × 100] × nombre d’années d’ancienneté
 
@@ -93,11 +97,11 @@ Prime mensuelle = \[\[valeur du point × taux] × 100] × nombre d’années d�
 Salarié en classe 1 (A1), valeur du point = 5,90 €, 10 ans d’ancienneté:\
 →  \[\[5,9 × 0,0145] × 100] × 10 = **85,5 € bruts par mois** (base 35 h).
 
-### Pour les classes 11 à 18 (groupes F à I)
+#### Et pour les cadres ? (Classes 11 à 18)
 
 Pas de prime d’ancienneté automatique comme pour les classes 1-10.
-À la place :
 
+À la place :
 * **Majorations pour expérience** intégrées au salaire minimum : +5 % après 2 ans ; +8 % après 4 ans.
 * **Indemnité de licenciement majorée** : +20 % si ≥50 ans et ≥5 ans d’ancienneté ; +30 % si ≥55 ans.
 * **Autres avantages** : Possibilité de prime via accord d’entreprise, mais pas de socle national. Vérifiez votre contrat ou contactez votre syndicat pour une simulation personnalisée.
@@ -109,8 +113,7 @@ Pas de prime d’ancienneté automatique comme pour les classes 1-10.
 ### Chez Kuhn
 
 * prime d’ancienneté dès 2 ans,
-* taux identiques pour les classes 1 à 18,
-* limite portée à 15 ans d’ancienneté,
+* prime applicable à toutes les classes (même les cadres),
 * taux appliqués sur le salaire brut de base (et non sur la valeur du point).
 * barème spécifique :
   | Nombre d'années d'ancienneté | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  |10  |11  |12  |13  |14  |15  |25  |
